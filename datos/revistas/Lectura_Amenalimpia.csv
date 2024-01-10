@@ -1,0 +1,389 @@
+NombreR,NumContrib,Colaborador,Roles,Seudonimo,PaisOrigen,Titulo,NumFasciculo,Fecha,Traduccion,Traductor,Lengua,LenguaOriginal,Tipo,TipoIndice,Dedicatoria,ObrasResenadas,CantidadPaginas,Paginacion,Comentarios
+Lectura Amena,1,Anónimo,Creador,NA,NA,Lectura Amena,1,15 de septiembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,Lectura Amena,NA,1,NA,Sumario
+Lectura Amena,2,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Juegos florales,1,15 de septiembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,Lectura Amena,NA,02/05/23,1--3,NA
+Lectura Amena,3,"Cano, Antonio José",Creador,NA,Colombia,Soñada…,1,15 de septiembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,3--4,NA
+Lectura Amena,4,"Dicenta, Joaquín",Creador,NA,España,La corona de Zorilla,1,15 de septiembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,4--5,NA
+Lectura Amena,5,"Gautier, Théophile",Creador,NA,Francia,"La ""Gioconda"" de Leonardo da Vinci",1,15 de septiembre de 1904,Sí,NA,Español,Francés,Prosa No ficción,NA,NA,NA,1,5--6,Transferencia: traducción
+Lectura Amena,6,"Darío, Rubén",Creador,NA,Nicaragua,Filtración,1,15 de septiembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,6--7,NA
+Lectura Amena,7,Anónimo,Creador,NA,NA,Rochefort poerta religioso,1,15 de septiembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,7,Transferencia: comentario sobre autor extranjero
+Lectura Amena,8,"Rochefort, Henri",Creador,NA,Francia,NA,1,15 de septiembre de 1904,No,NA,Francés,Francés,Poesía,NA,NA,NA,0.4,7--8,Transferencia: texto en el idioma original
+Lectura Amena,9,"Rochefort, Henri",Creador,NA,Francia,Traducción,1,15 de septiembre de 1904,Sí,NA,Español,Francés,Poesía,NA,NA,NA,0.4,8--,Transferencia: traducción
+Lectura Amena,10,"Gerin, Gabriel",Creador,NA,Francia,La invitación del doctor,1,15 de septiembre de 1904,Sí,"Martínez Rivas, F",Español,Francés,Poesía,NA,NA,NA,3,8--11,Transferencia: traducción
+Lectura Amena,11,"Restrepo, Saturnino",Creador,S. Restrepo,Colombia,Amado Nervo,1,15 de septiembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,Lectura Amena,NA,9,11--20,Transferencia: comentario sobre autor extranjero
+Lectura Amena,12,Anónimo,Creador,NA,NA,NA,1,15 de septiembre de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,04/03/23,NA,NA
+Lectura Amena,13,"Maupassant, Guy de",Creador,NA,Francia,El paraguas,2,15 de octubre de 1904,Sí,NA,Español,Francés,Prosa Ficción,NA,"Oudinot, Camilo",NA,6,21-26,Transferencia: traducción
+Lectura Amena,14,"Velázquez, Alejandro",Creador,NA,Colombia,¡Oh… Artistas!,2,15 de octubre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,01/02/23,27-28,NA
+Lectura Amena,15,"Monte, D. L.",Creador,D.L. Monte,NA,"""Reir llorando""",2,15 de octubre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/01/23,28-29,NA
+Lectura Amena,16,"Flórez, Julio",Creador,NA,Colombia,¡Oh Luna!,2,15 de octubre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,29--,NA
+Lectura Amena,17,"Montoya, Antonio José",Creador,NA,Colombia,Limosnera,2,15 de octubre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/03/23,29-30,NA
+Lectura Amena,18,"Mercado, Julio",Creador,NA,Colombia,Himnario,2,15 de octubre de 1904,No,NA,Español,NA,Poesía,NA,"Velasquez, Leticia",NA,0.4,31,NA
+Lectura Amena,19,"Restrepo Restrepo, Antonio María",Creador,Abel Farina,Colombia,En un albúm (*),2,15 de octubre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.6,31-32,NA
+Lectura Amena,20,"Blanco Asenjo, Ricardo",Creador,NA,España,El Capitán Medrano. Episodio de la Guerra de Independencia,2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,3,32-35,Transferencia: texto sobre la guerra
+Lectura Amena,21,"Cano, Antonio José",Creador,NA,Colombia,Delirio,2,15 de octubre de 1904,No,NA,Español,NA,Poesía,NA,"Cruz, Jorge de la ",NA,1,35-36,NA
+Lectura Amena,22,"Mendès, Catulle",Creador,NA,Francia,*El escollo eterno (De Rigoletto),2,15 de octubre de 1904,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,0.8,36,Transferencia: traducción. Texto tomado del Rogoletto
+Lectura Amena,23,"Soto Borda, Clímaco",Creador,NA,Colombia,Vino rojo (De Germinal),2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,NA,"Murillo, Emilio",NA,1,37,Tomado de Germinal
+Lectura Amena,24,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Con genio también se paga,2,15 de octubre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,2,38-39,NA
+Lectura Amena,25,Anónimo,Creador,NA,NA,Con el buen éxito,2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,40,NA
+Lectura Amena,26,Anónimo,Creador,NA,NA,Agradecemo,2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.2,40,NA
+Lectura Amena,27,Anónimo,Creador,NA,NA,Juan amores,2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.2,40,Transferencias: promociónm de folleto de Camilo Arturo Escobar
+Lectura Amena,28,Anónimo,Creador,NA,NA,Teatro,2,15 de octubre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,40,NA
+Lectura Amena,29,"Velásquez García, José",Creador,NA,Colombia,Ay! Mi tierra!,3,1 de noviembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,"De la Hoz, Paulina",NA,2,41-42,NA
+Lectura Amena,30,"Vásquez Barreneche, Alejandro ",Creador,"Vázquez B., A. ",Colombia,Poema a los poetas y a la reina de los Juegos Florales,3,1 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,5,43-47,Aquí lo suponemos porque esas páginas no aparecen
+Lectura Amena,31,"Botero Guerra, Camilo",Creador,Don Juan del Martillo,Colombia,Casos y cosas de Medellín. Rehabilitación,3,1 de noviembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,06/03/23,47-55,NA
+Lectura Amena,32,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Canto a la juventud,3,1 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,02/08/23,55-58,NA
+Lectura Amena,33,"Montoya, Antonio José",Creador,NA,Colombia,Renacimiento,3,1 de noviembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/03/23,58-60,NA
+Lectura Amena,34,"Marín, Abel",Creador,NA,Colombia,En el lago,3,1 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,Lectura Amena,NA,4,60-61,NA
+Lectura Amena,35,Anónimo,Creador,NA,NA,De todo,3,1 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.8,61,"Transferencias: mención a las revistas Vida Nueva, Revista Contemporánea, "
+Lectura Amena,36,Anónimo,Creador,NA,NA,Lectura Amena,4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,Sumario e información de la revista. En este también incluyen un poco de publicidad
+Lectura Amena,37,"Robledo, Eusebio",Creador,NA,Colombia,C'est la vie...,4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,Lectura Amena,NA,2,63-64,NA
+Lectura Amena,38,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,En un abánico,4,15 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,65,NA
+Lectura Amena,39,"Guerrini, Olindo",Creador,NA,Italia,...? (De Stechetti),4,15 de noviembre de 1904,Sí,NA,Español,Italiano,Poesía,NA,NA,NA,0.5,65,Transferencia: traducción
+Lectura Amena,40,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,"Sófocles, Homero y Fidias",4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,Dr. F. A. U. M.,NA,04/05/23,66-70,NA
+Lectura Amena,41,"Gil, Ricardo",Creador,NA,España,Tristitia Rerum,4,15 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,01/02/23,70-71,NA
+Lectura Amena,42,"Maupassant, Guy de",Creador,NA,Francia,La leyenda del monte San Miguel,4,15 de noviembre de 1904,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,03/03/23,71-74,Transferencia: traducción
+Lectura Amena,43,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Elegía,4,15 de noviembre de 1904,No,NA,Español,NA,Poesía,NA,"Escobar, Jorge",NA,1,75,NA
+Lectura Amena,44,"Gómez, Lucas",Creador,NA,NA,El pequeño caiman (*),4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,05/05/23,76-81,NA
+Lectura Amena,45,"Echavarría Vélez, Liborio",Creador,NA,Colombia,Conferencia,4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,Conferencia,NA,NA,1,81-82,NA
+Lectura Amena,46,Anónimo,Creador,NA,NA,De todo,4,15 de noviembre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.5,82,Anuncian que haran revisión de los textos y organizarán un jurado para ello
+Lectura Amena,47,Anónimo,Creador,NA,NA,NA,4,15 de noviembre de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
+Lectura Amena,48,Anónimo,Creador,NA,NA,Lectura Amena,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,Sumario y una página de publicidad
+Lectura Amena,49,Anónimo,Ilustrador,NA,NA,José A. Silva,5 y 6,15 de diciembre de 1904,No,NA,NA,NA,Ilustración,NA,NA,NA,1,NA,NA
+Lectura Amena,50,"Silva, José Asunción",Creador,José A. Silva,Colombia,Nocturno,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,83-84,NA
+Lectura Amena,51,"Soto Borda, Clímaco",Creador,NA,Colombia,Impresiones íntimas,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/05/23,84-87,NA
+Lectura Amena,52,"Londoño, Víctor Manuel",Creador,V.M.Londoño,Colombia,A José A. Silva,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,88,NA
+Lectura Amena,53,"Silva, José Asunción",Creador,NA,Colombia,Suspiros,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,89-90,NA
+Lectura Amena,54,"Valencia, Guillermo",Creador,NA,Colombia,Leyendo a Silva,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,03/05/23,90-93,NA
+Lectura Amena,55,"Silva, José Asunción",Creador,José A. Silva,Colombia,De Sobremesa (Fragmento),5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa Ficción,Fragmento,NA,NA,01/05/23,94-95,NA
+Lectura Amena,56,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Balada de lo irreparable. Parafrástica,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Silva, José Asunción",NA,2,95-97,NA
+Lectura Amena,57,"Palacio Uribe, Tomás",Creador,NA,NA,Recuerdo,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/03/23,97-99,NA
+Lectura Amena,58,"Villegas, Aquilino",Creador,NA,Colombia,Balada de lo irreparable,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Gómez H, Emilio",NA,1,99-100,NA
+Lectura Amena,59,"Silva, José Asunción",Creador,NA,Colombia,El paraguas del padre León,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,Prólogo,"Soto Borda, Clímaco",NA,2,101-102,NA
+Lectura Amena,60,"Tejada Córdoba, Benjamín",Creador,B. Tejada Córdoba,Colombia,"Silva, romántico",5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,Lectura Amena,NA,0.6,102-103,NA
+Lectura Amena,61,"Silva, José Asunción",Creador,José A. Silva,Colombia,?,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Restrepo, Antonio José",NA,0.3,103,NA
+Lectura Amena,62,"Silva, José Asunción",Creador,José A. Silva,Colombia,Oratorio,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,103,NA
+Lectura Amena,63,"Marín, Abel",Creador,NA,Colombia,José Asunción Silva,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,104,NA
+Lectura Amena,64,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,J. A. Silva (Fragmento),5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,Fragmento,NA,NA,03/05/23,104-107,NA
+Lectura Amena,65,"Silva, José Asunción",Creador,José A. Silva,Colombia,La calavera,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,108,NA
+Lectura Amena,66,"Silva, José Asunción",Creador,José A. Silva,Colombia,Lázaro,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,108,NA
+Lectura Amena,67,"Silva, José Asunción",Creador,José A. Silva,Colombia,Carta abierta,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,3,109-111,NA
+Lectura Amena,68,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,El nocturno,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Cano, Luis",NA,1,112,NA
+Lectura Amena,69,"Silva, José Asunción",Creador,José A. Silva,Colombia,Muertos,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.7,113,NA
+Lectura Amena,70,Anónimo,Creador,NA,NA,De todo,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,01/03/23,113-114,Transferencia: mencionan a la Revista Nueva y Grminal
+Lectura Amena,71,Anónimo,Creador,NA,NA,NA,5 y 6,15 de diciembre de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
+Lectura Amena,72,"Olano, Ricardo",Creador,NA,Colombia,Noél,7,24 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/05/23,115-116,NA
+Lectura Amena,73,"Medina, Vicente",Creador,NA,España,Noche-güena,7,24 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Cassou, Pedrí Díaz",NA,4,116-120,NA
+Lectura Amena,74,"Montoya, Antonio José",Creador,NA,Colombia,Diciembre,7,24 de diciembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,120-121,NA
+Lectura Amena,75,"Tejada Córdoba, Benjamín",Creador,B. Tejada Córdoba,Colombia,Mudanzas,7,24 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,"Rodríguez, Melitón",NA,01/05/23,122-123,NA
+Lectura Amena,76,"Rios de Lamperez, Blanca de los",Creador,NA,España,La noche buena del maestro (Impresión de navidad),7,24 de diciembre de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,05/05/23,123-128,NA
+Lectura Amena,77,"Valencia, Francisco",Creador,NA,Colombia,Las bandolas,7,24 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,2,129-130,NA
+Lectura Amena,78,"Groot, José Manuel",Creador,NA,Colombia,Primer monedero falso. En Colombia,7,24 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.9,131,NA
+Lectura Amena,79,"Marín, Abel",Creador,NA,Colombia,Diciembre,7,24 de diciembre de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,131-132,NA
+Lectura Amena,80,"Breen, M.",Creador,NA,NA,El rayo de luna,7,24 de diciembre de 1904,Sí,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/03/23,132-134,Transferencia: traducción
+Lectura Amena,81,Anónimo,Creador,NA,NA,De todo,7,24 de diciembre de 1904,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,01/03/23,134-135,Dentro de esta sección anunció el concurso de Teatro por la Miscelánea
+Lectura Amena,82,Anónimo,Creador,NA,NA,NA,7,24 de diciembre de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,Dentro de la publicidad publican las condiciones de la Revista
+Lectura Amena,83,"Nervo, Amado",Creador,NA,México,Colaboración honrosa,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.5,NA,Transferencia: carta de Nervo en la que dicen que lo incluiran en la lista de intercambio de Revista Moderna de México
+Lectura Amena,84,"Nervo, Amado",Creador,NA,México,La vieja canción (Inédita),8,15 de enero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/03/23,136,NA
+Lectura Amena,85,"Castro, Alfonso",Creador,NA,Colombia,El triunfo de la vida,8,15 de enero de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Montoya, Emilio J",NA,04/06/23,136-141,NA
+Lectura Amena,86,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Redentores,8,15 de enero de 1905,No,NA,Español,NA,Poesía,NA,"Calle, Emilio",NA,1,141-142,NA
+Lectura Amena,87,Anónimo,Creador,NA,NA,"Telegramas relativos a la exhumación, conducción y recibimiento de los restos de Jorge Isaacs",8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,142-144,NA
+Lectura Amena,88,"Vélez, Bonifacio",Creador,NA,Colombia,Acta de exhumación de los restos de Jorge Isaacs,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,144-145,NA
+Lectura Amena,89,"Vélez, Bonifacio",Creador,NA,Colombia,Certificado del gobernador del Tolima,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.7,145-146,NA
+Lectura Amena,90,"Bonis, J. M.",Creador,J.M. Bonis,NA,Carta del Secretario de la Junta Isaacs en Bogotá,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.7,146,NA
+Lectura Amena,91,Anónimo,Creador,NA,NA,Acta,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.7,147,NA
+Lectura Amena,92,"Isaacs, Lisímaco",Creador,NA,Colombia,Discurso del Dr. Lísimaco Isaacs,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,Discurso,NA,NA,0.5,147-148,NA
+Lectura Amena,93,"Botero Guerra, Camilo",Creador,NA,Colombia,Discurso del Sr. Camilo Botero Guerra,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,Discurso,NA,NA,2,149-150,NA
+Lectura Amena,94,"Cano Gutiérrez, Fidel",Creador,NA,Colombia,Discurso del Sr. Fidel Cano,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,Discurso,NA,NA,01/01/23,150-151,NA
+Lectura Amena,95,Anónimo,Creador,NA,NA,Acta de recepción de los restos de Isaacs,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,Acta,NA,NA,01/05/23,152-153,NA
+Lectura Amena,96,"Fernández Avendaño, Enrique Wenceslao",Creador,NA,Colombia,A Jorge Isaacs (En la recepción de sus restos),8,15 de enero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,153,NA
+Lectura Amena,97,"Tablada, José Juan",Creador,NA,México,Onix,8,15 de enero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,154,Tomado de El Heraldo del Istmo
+Lectura Amena,98,Anónimo,Creador,NA,NA,De todo,8,15 de enero de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,1,155,NA
+Lectura Amena,99,"Zapata A., José J.",Creador,NA,NA,Instituto Girardot,8,15 de enero de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,100,"Cano Gutiérrez, Fidel",Creador,NA,Colombia,Noche triste (en la navidad de 1904),9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,02/05/23,156-158,NA
+Lectura Amena,101,"Uribe Mejía, Francisco Antonio",Creador,F.A. Uribe Mejía,Colombia,"Vida Amarga (después de leer ""Noche triste""",9,1 de febrero de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,159-160,NA
+Lectura Amena,102,"Nervo, Amado",Creador,NA,México,Tritoniada,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,160-161,NA
+Lectura Amena,103,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Verlaine converso,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,"Amado, Fray",NA,0.5,161,NA
+Lectura Amena,104,"Montoya, Antonio José",Creador,NA,Colombia,Juancho Uribe,9,1 de febrero de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Mesa, Rafael",NA,02/05/23,163-164,NA
+Lectura Amena,105,"Jaramillo P., Escipión",Creador,NA,Colombia,Ocaso,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,C. F. V.,NA,0.3,164,NA
+Lectura Amena,106,"Lozano, Alberto",Creador,NA,Colombia,Amor y gloria,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,03/04/23,164-168,NA
+Lectura Amena,107,"Gonzaga Urbina, Luis",Creador,NA,México,De profundis,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.9,168-169,NA
+Lectura Amena,108,"Negueri, D.",Creador,NA,NA,Para un Álbum,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,E. S. A,NA,0.5,169,NA
+Lectura Amena,109,"Montoya Pérez, Rafael",Creador,NA,Colombia,Caída,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,"Montoya, José",NA,04/03/23,169-173,NA
+Lectura Amena,110,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Reliquia bio-bibliográfica de Epifanío Mejía,9,1 de febrero de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.5,174,NA
+Lectura Amena,111,"Mejía, Epifanio ",Creador,NA,Colombia,Alfredo,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,Teresita,NA,1,174-175,NA
+Lectura Amena,112,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,La tarde,9,1 de febrero de 1905,No,NA,Español,NA,Poesía,NA,H. A. Z.,NA,0.7,175-176,NA
+Lectura Amena,113,Anónimo,Creador,NA,NA,De todo,9,1 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,176-177,Transferencia: Mencionan El Ciriri y el Diario Noticioso. De igual maneda promocionan el Libro Escritos y Discursos de Fe de P Muñoz
+Lectura Amena,114,Anónimo,Creador,NA,NA,NA,9,1 de febrero de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,0.7,177,Dentro de la pulicidad está el decreto Legislativo número 4 sobre prensa
+Lectura Amena,115,"Montoya, Antonio José",Creador,NA,Colombia,El parnaso de la montaña (De El Gran Montañes.),10,15 de febrero de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/05/23,178-183,NA
+Lectura Amena,116,"Valencia, Guillermo",Creador,NA,Colombia,Las dos cabezas,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,"Gutierrez, Eduardo S",NA,02/05/23,183-185,NA
+Lectura Amena,117,"Vargas Vila, José María",Creador,J.M. Vargas Vila,Colombia,Inexorable dilema,10,15 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,5,186-190,NA
+Lectura Amena,118,"Nervo, Amado",Creador,NA,México,Increpación,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,191,NA
+Lectura Amena,119,"Dicenta, Joaquín",Creador,NA,España,Bonafoux (Nota bohemia),10,15 de febrero de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/03/23,192-194,NA
+Lectura Amena,120,"León Gómez, Adolfo",Creador,Adolfo León Gómez,Colombia,Los abyectos,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,194,NA
+Lectura Amena,121,"Cano, Luis",Director,NA,Colombia,Anarquía póstuma,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,194,NA
+Lectura Amena,122,"Cano, Antonio José",Creador,NA,Colombia,Tentación,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,195,NA
+Lectura Amena,123,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Poema en prosa,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,"Carrasquilla, Tomás",NA,0.5,195,NA
+Lectura Amena,124,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,En la selva intacta,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,"Duque, Mercedes",NA,01/05/23,196-197,NA
+Lectura Amena,125,"Tejada Córdoba, Benjamín",Creador,B. Tejada Córdoba,Colombia,Memento,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,Isabel,NA,0.5,197,NA
+Lectura Amena,126,"Vélez, Salvador",Creador,NA,NA,Luz y sombra,10,15 de febrero de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,198,NA
+Lectura Amena,127,Anónimo,Creador,NA,NA,De todo,10,15 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,198,NA
+Lectura Amena,128,"Uribe Uribe, Rafael",Creador,NA,Colombia,"Medellín, Enero 22 de 1905",10,15 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,198-199,NA
+Lectura Amena,129,"Cardenas, Bernardino",Creador,NA,NA,D. José Elias Toro,10,15 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.6,199,NA
+Lectura Amena,130,Anónimo,Creador,NA,NA,NA,10,15 de febrero de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,01/03/23,199-200,NA
+Lectura Amena,131,"Cano, Luis",Director,NA,Colombia,Índice del Tomo 1,10,15 de febrero de 1905,No,NA,Español,NA,Prosa No ficción,Índice,NA,NA,2,NA,NA
+Lectura Amena,132,Anónimo,Ilustrador,NA,NA,Jorge Isaacs,10,15 de febrero de 1905,No,NA,NA,NA,Ilustración,NA,NA,NA,1,NA,NA
+Lectura Amena,133,"Montoya Pérez, Rafael",Creador,NA,Colombia,Tu quoque,11,1 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Vélez, Salvador",NA,07/03/23,201-208,NA
+Lectura Amena,134,"Donato Navarro, Manuel",Creador,NA,Colombia,Secreto,11,1 de marzo de 1905,No,NA,Español,NA,Poesía,NA,"Yepes, Luis E.",NA,1,208-209,NA
+Lectura Amena,135,"Nervo, Amado",Creador,NA,México,Otras vidas,11,1 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/02/23,208-213,NA
+Lectura Amena,136,"Robledo, Jorge Samuel ",Creador,NA,Colombia,Los funerales del sol (Paráfrasis),11,1 de marzo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/01/23,213-214,NA
+Lectura Amena,137,"Cano Gutiérrez, Fidel",Creador,NA,Colombia,Discurso,11,1 de marzo de 1905,No,NA,Español,NA,Prosa No ficción,Discurso,NA,NA,4,214-218,NA
+Lectura Amena,138,"Cano, Luis",Director,NA,Colombia,Nights,11,1 de marzo de 1905,No,NA,Español,NA,Poesía,NA,"Paéz M, Julian",NA,0.4,218,NA
+Lectura Amena,139,Fx. B.,Creador,NA,NA,Tropical,11,1 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/04/23,219-220,NA
+Lectura Amena,140,"Negueri, D.",Creador,NA,NA,Fantasia,11,1 de marzo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.6,220,NA
+Lectura Amena,141,"Greiff, Luis de",Creador,NA,Colombia,El creador de María,11,1 de marzo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/06/23,221-223,NA
+Lectura Amena,142,Anónimo,Creador,NA,NA,De todo,11,1 de marzo de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,01/04/23,223-224,Promocionan un libro de Januario Henao
+Lectura Amena,143,Anónimo,Creador,NA,NA,Lectura Amena,12,15 de marzo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,"Sumario y una página de publicidad. Además promocionan la Agencia de libros de Luis Cano. En la que se consigue cualqueir libro, sea nacional o extranjero"
+Lectura Amena,144,"Marín, Abel",Creador,NA,Colombia,Polonia,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Cano, Luis",NA,02/05/23,225-227,NA
+Lectura Amena,145,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Poema triste,12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,"Latorre, J.V.",NA,2,227-229,NA
+Lectura Amena,146,"Dicenta, Joaquín",Creador,NA,España,Dos naturalezas,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/08/23,229-232,NA
+Lectura Amena,147,"Gamboa, Mateo",Creador,NA,Colombia,Crepuscular,12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,Lectura Amena,NA,0.5,232,NA
+Lectura Amena,148,"Sierra, Justo",Creador,NA,México,Nocturno,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Estera, Roberto A.",NA,04/06/23,232-237,NA
+Lectura Amena,149,"Cano, Antonio José",Creador,NA,Colombia,Los ritmos (De León Dierx),12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/04/23,237-238,NA
+Lectura Amena,150,"Rodríguez Moya, Francisco",Creador,NA,Colombia,Scherzo,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,C.H.,NA,01/03/23,238-239,NA
+Lectura Amena,151,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Saturniana,12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.8,240,NA
+Lectura Amena,152,"Pastor Ríos, Justo",Creador,NA,Colombia,Días de boda,12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/02/23,240-241,NA
+Lectura Amena,153,Salduba,Creador,NA,NA,La última misa,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/03/23,242-245,De Blaco y Negro
+Lectura Amena,154,"Gómez E., Bernardo",Creador,NA,Colombia,Le voyage,12,15 de marzo de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Fidel",NA,0.5,245,NA
+Lectura Amena,155,"Fernández García, Alejandro",Creador,NA,Venezuela,Crónicas de poetas,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,245-247,NA
+Lectura Amena,156,"Echegorri, P.",Creador,NA,NA,Idilio,12,15 de marzo de 1905,No,NA,Español,NA,Prosa Ficción,NA,C.P.,NA,0.7,247,NA
+Lectura Amena,157,Anónimo,Creador,NA,NA,De todo,12,15 de marzo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,248,Se mencina la última entrega de la Miscelánea. Acusan recibo del libro Diana de Clímaco Soto Borda. Y mencionan la aparición de la revista Actualidades
+Lectura Amena,158,Anónimo,Creador,NA,NA,NA,12,15 de marzo de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Transferencias: Lista de libros y us precios en la Librería de Antonio J. Cano
+Lectura Amena,159,"Soto Borda, Clímaco",Creador,NA,Colombia,Diana,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,"Seravile, Delio (Escobar Sarmiento, Ricardo)",NA,01/04/23,249-250,NA
+Lectura Amena,160,"Palma, Clemente",Creador,NA,Perú,Idealismos,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/08/23,250-254,NA
+Lectura Amena,161,"Marín, Abel",Creador,NA,Colombia,Hortus Larvarum (Poema paradisíaco),13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,"Farina, Abel",NA,01/06/23,254-255,"Transferencia: en el subtítulo dice ""Tema de Gabriel D'Annunzio"". Mirar si ese autor tiene un poema similar y si este autor se basó en ese"
+Lectura Amena,162,"Cano, Luis",Director,NA,Colombia,Margot,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Montoya Pérez, Rafael",NA,02/07/23,255-258,NA
+Lectura Amena,163,"Villegas Arango, Alfonso",Creador,NA,Colombia,Ella,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,258,NA
+Lectura Amena,164,"Cadenas, José Juan",Creador,NA,España,La canción de Pierrot,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,259,NA
+Lectura Amena,165,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Raro,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/09/23,260-263,NA
+Lectura Amena,166,"Vélez, Victoriano",Creador,NA,Colombia,"""Diario""",13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,263-264,NA
+Lectura Amena,167,"París, Luis",Creador,NA,España,Delirio de las persecuciones,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/03/23,264-266,NA
+Lectura Amena,168,"D'Annunzio, Gabriele",Creador,NA,Italia,En vano,13,1 de abril de 1905,Sí,"Cano, Fidel",Español,Italiano,Poesía,NA,"Cano, Antonio J",NA,0.5,266,Transferencia: traducción
+Lectura Amena,169,"Darío, Rubén",Creador,NA,Nicaragua,Waterloo,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,266-267,NA
+Lectura Amena,170,"Robledo J., Alfonso",Creador,NA,Colombia,La vaca,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,268,NA
+Lectura Amena,171,"Negueri, D.",Creador,NA,NA,Desmayo,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,"Osapina, A",NA,0.5,268,NA
+Lectura Amena,172,"Bedout, C. de",Creador,NA,NA,Au reveil,13,1 de abril de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Tejada C, B.",NA,01/02/23,268-270,NA
+Lectura Amena,173,"Gómez E., Bernardo",Creador,Bernardo Gómez,Colombia,La vejez del perro,13,1 de abril de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Luis",NA,0.5,270,NA
+Lectura Amena,174a,"Villegas, Luis Eduardo",Creador,NA,Colombia,Francisco Mejía Pelaéz,13,1 de abril de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/03/23,270-271,NA
+Lectura Amena,174b,"Cano Gutiérrez, Fidel",Creador,NA,Colombia,Francisco Mejía Pelaéz,13,1 de abril de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/03/23,270-271,NA
+Lectura Amena,175,Anónimo,Creador,NA,NA,Heliodoro Ospina,13,1 de abril de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,272,NA
+Lectura Amena,176,Anónimo,Creador,NA,Colombia,Lectura Amena,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,"Sumario e información de la revista. Una página de publicidaden la que promocionan la Agencia de Libros, revistas y Periódicos de Luis Cano"
+Lectura Amena,177,"Restrepo, Saturnino",Creador,NA,Colombia,Manos de cigarrillo,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/03/23,273-276,"Tomado ""De El Comercio"""
+Lectura Amena,178,"Valencia, Guillermo",Creador,NA,Colombia,Croquis,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,276-277,NA
+Lectura Amena,179,"Roure, José de",Creador,NA,España,La esfinge,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/07/23,277-282,NA
+Lectura Amena,180,"Hugo, Victor",Creador,NA,Francia,El derviche (De Víctor Hugo),14 y 15,1 de mayo de 1905,Sí,"Llorente, Teodoro",Español,Francés,Poesía,NA,NA,NA,01/02/23,282-283,Transferencia: traducción
+Lectura Amena,181,"Montoya, Antonio José",Creador,NA,Colombia,Prendas de oro,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/08/23,283-286,NA
+Lectura Amena,182,"Martínez Sierra, Gregorio",Creador,NA,España,Algunas consideraciones sobre la literatura de hoy,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/05/23,286-288,Transferencias: comentario sobre literatura
+Lectura Amena,183,"Nervo, Amado",Creador,NA,México,El muezín,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,289,NA
+Lectura Amena,184,"Nervo, Amado",Creador,NA,México,Las cigüeñas,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,289,NA
+Lectura Amena,185,"Daudet, Alphonse",Creador,NA,Francia,La última clase. Narraciones de un muchacho alsaciano,14 y 15,1 de mayo de 1905,Sí,L. de G,Español,Francés,Prosa Ficción,NA,NA,NA,03/05/23,289-293,Transferencia: traducchón
+Lectura Amena,186,"Marín, Abel",Creador,NA,Colombia,Penumbra,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,"Cruz, Efraín de la ",NA,0.3,293,NA
+Lectura Amena,187,"Marín, Abel",Creador,NA,Colombia,........ En el álbum de la Srita. Pepa uribe,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,293,NA
+Lectura Amena,188,"Montoya Pérez, Rafael",Creador,NA,Colombia,Desde el huevo,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Mesa, Rafael",NA,01/05/23,294-295,Epígrafe: para el album ilustrado de Rafael Mesa
+Lectura Amena,189,"Blanco Fombona, Rufino",Creador,NA,Venezuela,Explicación,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.9,295-296,NA
+Lectura Amena,190,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Plumazos,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.9,296-297,NA
+Lectura Amena,191,"Vélez, Victoriano",Creador,NA,Colombia,Sursum,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,"Villegas Arango, Alfonso",NA,0.4,297,NA
+Lectura Amena,192,"Riche, Iván",Creador,NA,Colombia,Rubí,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Cano, Luis",NA,02/05/23,297-300,NA
+Lectura Amena,193,"Nieto, Ricardo",Creador,NA,Colombia,Hojas secas,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/04/23,300-301,NA
+Lectura Amena,194,"Allais, Alphonse",Creador,NA,Francia,¿... Y Daudet? ,14 y 15,1 de mayo de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,2,301-303,Transferencia: traducción
+Lectura Amena,195,"Cano, Antonio José",Creador,Antonio J. Cano,Colombia,Crepúsculos,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.7,303-304,De Lectura y Arte
+Lectura Amena,196,"Castro, Alfonso",Creador,NA,Colombia,Discurso,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/05/23,304-307,NA
+Lectura Amena,197,"Lisle, Leconte de",Creador,NA,Francia,El jaguar,14 y 15,1 de mayo de 1905,Sí,"Canal, Laurentino",Español,Francés,Poesía,NA,NA,NA,01/05/23,307-309,Transferencia: traducción. (Leconte de Lisle- Poemes barbares)
+Lectura Amena,198,"Rodríguez Moya, Francisco",Creador,NA,Colombia,Los vencidos,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,08/07/23,309-317,"""De mi libro Sensitivas"""
+Lectura Amena,199,"Díaz, Leopoldo",Creador,NA,Argentina,Melancolía,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,318,NA
+Lectura Amena,200,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Juegos florales en Medellín,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/05/23,318-320,NA
+Lectura Amena,201,Anónimo,Creador,NA,NA,De todo,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,NA
+Lectura Amena,202,Anónimo,Creador,NA,NA,NA,14 y 15,1 de mayo de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,Transferencia: Aquí está la lista de lis libros Nuevos de la librería de : Antonio J. Cano
+Lectura Amena,203,Anónimo,Creador,NA,NA,Lectura Amena,16,15 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,Sumario y condiciones de la revista. Además de algunos anuncios
+Lectura Amena,204,"Dicenta, Joaquín",Creador,NA,España,La finca de los muertos,16,15 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,3,321-323,NA
+Lectura Amena,205,"Moreno Alba, Miguel",Creador,NA,Colombia,Medias Tintas,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,"Guerra, Vives (Velásquez, garcía José)",NA,0.8,324,NA
+Lectura Amena,206,"Nervo, Amado",Creador,NA,México,Una humillación,16,15 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,324-328,NA
+Lectura Amena,207,"Arciniegas, Ismael Enrique",Creador,NA,Colombia,El alma muerta,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,"Lugones, Leopoldo",NA,0.4,328,NA
+Lectura Amena,208,"Heredia, José María de",Creador,NA,Cuba,La vida de los muertos,16,15 de mayo de 1905,Sí,"Caro, Antonio José",Español,Francés,Poesía,NA,"Silvestre, Armand",NA,0.5,328-329,Transferencia: traducción
+Lectura Amena,209,"D'Annunzio, Gabriele",Creador,NA,Italia,El héroe,16,15 de mayo de 1905,Sí,NA,Español,Italiano,Prosa Ficción,NA,NA,NA,02/08/23,329-332,Transferencia: traducción
+Lectura Amena,210,"Valencia, Francisco",Creador,Pacho Valencia,Colombia,In eternum,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,"Tracia, Sor Margarita de",NA,01/03/23,332-333,NA
+Lectura Amena,211,"Echagüe, Francisco",Creador,NA,España,Los mendigos de la calle de Atocha,16,15 de mayo de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,333-337,NA
+Lectura Amena,212,"Cano Gutiérrez, Fidel",Creador,Fidel Cano,Colombia,A la Srta. Mercedes Duque,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.6,337,NA
+Lectura Amena,213,"Tolstói, Lev Nikoláievich",Creador,NA,Rusia,Malachka y Akulina,16,15 de mayo de 1905,Sí,NA,Español,Ruso,Prosa Ficción,NA,NA,NA,01/08/23,337-339,Transferencia: traducción
+Lectura Amena,214,"Vélez, Salvador",Creador,NA,NA,Siempre,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,339,NA
+Lectura Amena,215,"Jaramillo, Bernardo",Creador,NA,Colombia,Sugestión,16,15 de mayo de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,340,NA
+Lectura Amena,216,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Crónica volandera,16,15 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,3,340-343,NA
+Lectura Amena,217,"Cano, Luis",Director,NA,Colombia,Ignacio Cano,16,15 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,343-344,NA
+Lectura Amena,218,"Alba, E.",Creador,NA,NA,Julio Flórez,16,15 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.5,344,NA
+Lectura Amena,219,Anónimo,Creador,NA,NA,De todo,16,15 de mayo de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.5,NA,NA
+Lectura Amena,220,Anónimo,Creador,NA,NA,NA,16,15 de mayo de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,01/05/23,NA,"Publicidad sobre la Agencia de Libros, Revistas y periódicos de Luis Cano"
+Lectura Amena,221,Anónimo,Creador,NA,NA,Lectura Amena,17,1 de junio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,NA,Sumario y condiciones de la revista. Además hay una parte de la Ley 51 de 1898 de prensa
+Lectura Amena,222,"Urrecha, Federico",Creador,NA,España,Tinita,17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,05/08/23,345-350,NA
+Lectura Amena,223,"Nieto, Ricardo",Creador,NA,Colombia,Canción de invierno,17,1 de junio de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Luis",NA,0.8,350-351,NA
+Lectura Amena,224,"Dicenta, Joaquín",Creador,NA,España,El monumento,17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/08/23,351-353,NA
+Lectura Amena,225,"Maya, Juan Antonio",Creador,NA,Colombia,Apoteosis,17,1 de junio de 1905,No,NA,Español,NA,Poesía,NA,"Londoño, Víctor",NA,2,353-355,NA
+Lectura Amena,226,"Castro, Alfonso",Creador,NA,Colombia,Cristalización (*),17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,Prosa,NA,NA,05/05/23,355-360,"En el título escriben la siguiente nota: ""Prosa presentada al jurado de los Juegos Florales y juzgada idigna de mención. (N, del A)"
+Lectura Amena,227,"Marín, Abel",Creador,NA,Colombia,Cavatina,17,1 de junio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,361,NA
+Lectura Amena,228,"Lizardo, Pedro",Creador,NA,Colombia,La procesión,17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.8,361-362,NA
+Lectura Amena,229,"Cano, Antonio José",Creador,NA,Colombia,Del álbum de Leticia Velásquez,17,1 de junio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,362,NA
+Lectura Amena,230,"Carrasquilla, Tomás",Creador,NA,Colombia,Es copia ,17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.5,362,NA
+Lectura Amena,231,"Gómez Carrillo, Enrique",Creador,NA,Guatemala,Una alma rusa,17,1 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/02/23,363-364,NA
+Lectura Amena,232,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Carnaval,17,1 de junio de 1905,No,NA,Español,NA,Poesía,NA,Samuel Ángel,NA,2,364-365,NA
+Lectura Amena,233,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Crónica volandera,17,1 de junio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/08/23,365-368,Dentro de estas mini noticias hay una sonbre la recepción del un libro de Nervo: Jardines Interiores
+Lectura Amena,234,Anónimo,Creador,NA,NA,De todo,17,1 de junio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.8,NA,"Anuncian el lanzamiento del nuevo libro de Gabriel Latorre, Kundry"
+Lectura Amena,235,Anónimo,Creador,NA,NA,NA,17,1 de junio de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,"Publicidad sobre la Agencia de Libros, Revistas y periódicos de Luis Cano"
+Lectura Amena,236,Anónimo,Creador,NA,NA,Lectura Amena,17,1 de junio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,sumario
+Lectura Amena,237,Anónimo,Creador,NA,NA,NA,17,1 de junio de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,Publican parte de la Ley
+Lectura Amena,238,"Montoya Pérez, Rafael",Creador,NA,Colombia,Besos y rezos,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/05/23,369-373,NA
+Lectura Amena,239,"Nieto, Ricardo",Creador,NA,Colombia,Ninón,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.8,373-374,NA
+Lectura Amena,240,"Marín, Abel",Creador,NA,Colombia,Noches de luna,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,Aníbal,NA,2,374-376,NA
+Lectura Amena,241,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Ritornelos,18,18 de junio de 1905,No,NA,Español,NA,Poesía,NA,Para un álbum,NA,1,376-377,NA
+Lectura Amena,242,"Dicenta, Joaquín",Creador,NA,España,El tío Gervasio,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/04/23,377-381,NA
+Lectura Amena,243,"Blanco, Héctor",Creador,NA,Venezuela,Simbólica,18,18 de junio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/04/23,381-382,NA
+Lectura Amena,244,"Darío, Rubén",Creador,NA,Nicaragua,La canción del oro,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/09/23,383-385,NA
+Lectura Amena,245,"Valencia, Francisco",Creador,Pacho Valencia,Colombia,Pecadora,18,18 de junio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,385-386,NA
+Lectura Amena,246,"Vélez, Salvador",Creador,NA,NA,Confidencia,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/01/23,386-390,NA
+Lectura Amena,247,"Carvajal, M.A.",Creador,NA,Colombia,Simbolismos de la floresta,18,18 de junio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,291,NA
+Lectura Amena,248,"Rusiñol, Santiago",Creador,NA,España,Blanca y negro,18,18 de junio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,392,NA
+Lectura Amena,249,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Crónica volandera,18,18 de junio de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.4,NA,NA
+Lectura Amena,250,Anónimo,Creador,NA,NA,Marco Tobón Mejía,18,18 de junio de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.5,NA,NA
+Lectura Amena,251,Anónimo,Creador,NA,NA,Acusamos recibo,18,18 de junio de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,NA,"El libro es Tratado de Corte, Sistema Elis de Ramón Soler Maymó"
+Lectura Amena,252a,"Arango, Juan B.",Creador,NA,NA,Certamen Industrial,18,18 de junio de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,NA,NA
+Lectura Amena,252b,"Molina, Carlos A.",Creador,NA,NA,Certamen Industrial,18,18 de junio de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.3,NA,NA
+Lectura Amena,253,Anónimo,Creador,NA,NA,Lectura Amena,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,Sumario
+Lectura Amena,254,Anónimo,Creador,NA,NA,NA,19 y 20,15 de julio de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,255,"Tablada, José Juan",Creador,J.J. Tablada,México,Fuegos artificiales,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,393,NA
+Lectura Amena,256,"Gómez Escobar, Francisco",Creador,Efe Gómez,Colombia,Corazón de mujer,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,7,394-400,NA
+Lectura Amena,257,"Jaramillo A., Roberto",Creador,NA,Colombia,Inmaculada,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/05/23,401-405,NA
+Lectura Amena,258,"Casal, Julián del",Creador,NA,Cuba,La última ilusión,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,3,405-408,NA
+Lectura Amena,259,"Pombo, Rafael",Creador,NA,Colombia,De noche,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,408,Epígrafe en francés de Chateaubriand
+Lectura Amena,260,"Gómez Carrillo, Enrique",Creador,NA,Guatemala,Psicopatia,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,04/08/23,409-413,NA
+Lectura Amena,261,"Bobadilla, Emilio",Creador,NA,Cuba,Anarquismo embrionario,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.7,413-414,NA
+Lectura Amena,262,"Moréas, Jean",Creador,NA,Grecia,Nocturno,19 y 20,15 de julio de 1905,Sí,"Villegas, Aquilino",Español,Griego,Poesía,NA,NA,NA,0.6,414-415,Transferencia: traducción
+Lectura Amena,263,"Gorki, Maksim",Creador,NA,Rusia,Coloquio con la vida,19 y 20,15 de julio de 1905,Sí,NA,Español,Ruso,Prosa Ficción,NA,NA,NA,01/04/23,415-416,Transferencia: traducción
+Lectura Amena,264,"Cano, Luis",Director,NA,Colombia,Amado Nervo,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,416,NA
+Lectura Amena,265,"Taunay, Vizconde de",Creador,NA,Brasil,El lazarino,19 y 20,15 de julio de 1905,Sí,NA,Español,Portugués,Prosa Ficción,NA,NA,NA,3,417-419,Transferencia: traducción
+Lectura Amena,266,"Silva, José Asunción",Creador,NA,Colombia,"De ""Gotas amargas"" Filosofías ",19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/08/23,420-421,NA
+Lectura Amena,267,"Bernal, Luis",Creador,NA,Colombia,Causerie,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,421-422,NA
+Lectura Amena,268,"Solano Patiño, José",Creador,NA,Colombia,Ninón,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,"Macía, carlos",NA,0.4,422-423,NA
+Lectura Amena,269,"Donato Navarro, Manuel",Creador,NA,Colombia,Aguilas negras,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.9,423-424,NA
+Lectura Amena,270,"Lisle, Leconte de",Creador,NA,Francia,El fin del hombre,19 y 20,15 de julio de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,01/06/23,424-425,Transferencia: traducción
+Lectura Amena,271,"Gamboa, Isaías",Creador,NA,Colombia,Stella,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,425,NA
+Lectura Amena,272,"Merizalde Uribe, Antonio",Creador,NA,Colombia,Flor de carne,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,426,NA
+Lectura Amena,273,"Dicenta, Joaquín",Creador,NA,España,El idilio de la noche,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/05/23,426-428,NA
+Lectura Amena,274,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Exótica,19 y 20,15 de julio de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,429,NA
+Lectura Amena,275,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Crónica volandera,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/06/23,430-432,"Menciona las revistas: El Correo del Valle, La Musa Americana, Espigas, El ruíz, La Golondrina, El Renacimiento. Así mismo menciona que ha recibido el libro Nociones de Gramática Castellana para uso de las escuelas Primarias de Martiniano Palacio."
+Lectura Amena,276a,"Corral, Jesús M. del",Creador,Jesús del Corral,Colombia,Coronación de Pombo,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,432,NA
+Lectura Amena,276b,"Gómez Jaime, Alfredo",Creador,NA,Colombia,Coronación de Pombo,19 y 20,15 de julio de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,432,NA
+Lectura Amena,277,Anónimo,Reseñista,NA,NA,Kundry,19 y 20,15 de julio de 1905,No,NA,Español,NA,Reseña,NA,NA,Kundry de Gabriel Latorre,01/08/23,NA,NA
+Lectura Amena,278,"Marín, Abel",Creador,NA,Colombia,Vencido,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Fidel",NA,01/07/23,433-434,NA
+Lectura Amena,279,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,La abuelita,21,15 de agosto de 1905,No,NA,Español,NA,Prosa Ficción,NA,Lectura Amena,NA,1,434-435,NA
+Lectura Amena,280,"Talero Núñez, Eduardo",Creador,NA,Colombia,En tu alcoba,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,435-437,NA
+Lectura Amena,281,"Gómez Carrillo, Enrique",Creador,NA,Guatemala,La nostalgia del dolor,21,15 de agosto de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/02/23,437-440,NA
+Lectura Amena,282,"Flórez, Julio",Creador,NA,Colombia,Silencio Santo,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.6,440,"""De Cardos y Lirios"""
+Lectura Amena,283,"Fernández García, Alejandro",Creador,NA,Venezuela,Los naufragos,21,15 de agosto de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Herrera Irigoyen,J. M.",NA,5,441-445,NA
+Lectura Amena,284,"Darío, Rubén",Creador,NA,Nicaragua,Letanía de N.S.D. Quijote,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,2,446-447,NA
+Lectura Amena,285,"Ugarte, Manuel",Creador,NA,Argentina,La intelectualidad sud-americana,21,15 de agosto de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,448-449,NA
+Lectura Amena,286,"Stecchetti, Lorenzo",Creador,NA,Italia,Las dos rosas,21,15 de agosto de 1905,Sí,G.,Español,Italiano,Poesía,NA,NA,NA,0.5,449,Transferencia: traducción
+Lectura Amena,287,"Huysmans, Joris-Karl",Creador,NA,Francia,El conductor de omnibus,21,15 de agosto de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,01/09/23,450-452,Transferencia: traducción
+Lectura Amena,288,"Greiff, Luis de",Creador,NA,Colombia,Coronación de Pombo,21,15 de agosto de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/06/23,452-454,NA
+Lectura Amena,289,"Pombo, Rafael",Creador,NA,Colombia,El despertar de Adán,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,455,NA
+Lectura Amena,290,"Pombo, Rafael",Creador,NA,Colombia,Elvira Tracy,21,15 de agosto de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,455-456,Eígrafe en inglés
+Lectura Amena,291,Anónimo,Reseñista,NA,NA,Antioquia Industrial,21,15 de agosto de 1905,No,NA,Español,NA,Reseña revista,NA,NA,Antioquia Industrial,0.4,NA,NA
+Lectura Amena,292,"Cano, Luis",Director,NA,Colombia,Prima de Lectura Amena,21,15 de agosto de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.2,NA,NA
+Lectura Amena,293a,"Uribe, Martín",Creador,NA,Colombia,Prima de Lectura Amena,21,15 de agosto de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.2,NA,NA
+Lectura Amena,293b,"Uribe, Gustavo",Creador,NA,Colombia,Prima de Lectura Amena,21,15 de agosto de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.2,NA,NA
+Lectura Amena,294,Anónimo,Creador,NA,NA,Feria y Exposición de Aniamles en Medellín,21,15 de agosto de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,295,Anónimo,Creador,NA,NA,Lectura Amena,22,1 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,Sumario
+Lectura Amena,296,Anónimo,Creador,NA,NA,Feria y Exposición de Aniamles en Medellín,22,1 de septiembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,,"Gómez Carrillo, Enrique",Creador,NA,Guatemala,Después del divorcio,22,1 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/02/23,457-460,NA
+Lectura Amena,,"Nieto, Ricardo",Creador,NA,Colombia,Eco triste,22,1 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,460,NA
+Lectura Amena,,"Merizalde Uribe, Antonio",Creador,NA,Colombia,Blanco y rojo,22,1 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,"Farina, Abel",NA,0.5,460-461,NA
+Lectura Amena,,"Michaud-D'Hamiae, L.",Creador,NA,NA,La caperucita azul,22,1 de septiembre de 1905,Sí,"Velásquez, Leticia",Español,NA,Prosa Ficción,NA,NA,NA,2,461-463,Transferencia: traducción
+Lectura Amena,,"Grillo, Maximiliano",Creador,Max. Grillo,Colombia,Anima rerum,22,1 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,463-464,NA
+Lectura Amena,,"Zola, Émile",Creador,NA,Francia,En un cementerio,22,1 de septiembre de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,02/02/23,465-467,Transferencia: traducción
+Lectura Amena,,"Pérez Zúñiga, Juan",Creador,NA,España,Primavera incipiente,22,1 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/03/23,467-468,NA
+Lectura Amena,,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,...?...,22,1 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,468-569,NA
+Lectura Amena,,"Dicenta, Joaquín",Creador,NA,España,Manuel Paso,22,1 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,06/03/23,469-475,NA
+Lectura Amena,,"Coppée, François",Creador,NA,Francia,La respuesta de la tierra,22,1 de septiembre de 1905,Sí,"Restrepo, Antonio José",Español,Francés,Poesía,NA,"Lotero, Leocadio",NA,2,475-477,Transferencia: traducción
+Lectura Amena,,"Darío, Rubén",Creador,NA,Nicaragua,El Dios bueno,22,1 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/02/23,477-480,NA
+Lectura Amena,,Z y Z.,Creador,NA,NA,Kundry,22,1 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,2,480,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,22,1 de septiembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,4,NA,Promocionan Kundry de Gabriel Latorre y al agencua Gasam de linros y periódicos
+Lectura Amena,,Anónimo,Creador,NA,NA,Lectura Amena,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,sumario
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,23,15 de septiembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,,"Montoya Pérez, Rafael",Creador,NA,NA,Colores,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,481,NA
+Lectura Amena,,"Hugo, Victor",Creador,NA,Francia,Nosotros,23,15 de septiembre de 1905,Sí,"Robledo, Eusebio",Español,Francés,Poesía,NA,NA,NA,01/05/23,482-483,Transferencia: traducción
+Lectura Amena,,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,El coronel Escamilla,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,483-484,NA
+Lectura Amena,,"Jaramillo P., Escipión",Creador,NA,Colombia,Día sin sol,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,485,NA
+Lectura Amena,,"Valle-Inclán, Ramón del",Creador,NA,España,El rey de la máscara (Cuento color de sangre),23,15 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/03/23,486-489,NA
+Lectura Amena,,"Robledo, Jorge Samuel ",Creador,NA,Colombia,Policroísmo,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/07/23,489-490,NA
+Lectura Amena,,"Unamuno, Miguel de",Creador,NA,España,¿Quiénes son los intelectuales?,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/05/23,491-493,NA
+Lectura Amena,,"Merizalde Uribe, Antonio",Creador,NA,Colombia,Rondel,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Luis",NA,0.5,493,NA
+Lectura Amena,,"Rodríguez Moya, Francisco",Creador,NA,Colombia,"Señoras, señores...",23,15 de septiembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,494-497,NA
+Lectura Amena,,"Jaramillo A., Roberto",Creador,NA,Colombia,Ritmo gris,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,"Cano, Luis",NA,01/05/23,497-498,NA
+Lectura Amena,,"Bourget, Paul",Creador,NA,Francia,El martirio intelectual de Gustavo Flaubert,23,15 de septiembre de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,3,499-501,Transferencia: traducción
+Lectura Amena,,"Solano Patiño, José",Creador,NA,Colombia,Rimas,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,"Mejía, Jaime",NA,1,502,NA
+Lectura Amena,,"Blanco Fombona, Rufino",Creador,NA,Venezuela,Lo que dice la musa,23,15 de septiembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,503,NA
+Lectura Amena,,"Velásquez García, José",Creador,Julio Vives Guerra,Colombia,Crónica volandera,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/05/23,503-504,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,De todo,23,15 de septiembre de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,0.5,NA,"Parte de estra página promociona la novela de Gabriel Latorre, Kundry"
+Lectura Amena,,Anónimo,Creador,NA,NA,Feria y Exposición de Aniamles en Medellín,23,15 de septiembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Lectura Amena,24,1 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Festival lírico,24,1 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,NA
+Lectura Amena,,"Mendès, Catulle",Creador,NA,Francia,La criadita,24,1 de octubre de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,04/05/23,505-509,Transferencia: traducción
+Lectura Amena,,"Posada, Guillermo",Creador,NA,Colombia,Funerales de Shelley,24,1 de octubre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,509,NA
+Lectura Amena,,"Cano, Antonio José",Creador,NA,Colombia,Epitalamio,24,1 de octubre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,510,NA
+Lectura Amena,,"Cano, Luis",Director,NA,Colombia,Del arroyo,24,1 de octubre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,511-514,NA
+Lectura Amena,,"Robledo, Eusebio",Creador,NA,Colombia,Mártir,24,1 de octubre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,514-515,NA
+Lectura Amena,,"Sienkiewicz, Henryk",Creador,NA,Polonia,Los dos prados,24,1 de octubre de 1905,Sí,NA,Español,Polaco,Prosa Ficción,NA,NA,NA,4,516-219,Transferencia: traducción
+Lectura Amena,,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Preces,24,1 de octubre de 1905,No,NA,Español,NA,Poesía,NA,"Montoya A, J.",NA,01/05/23,520-521,NA
+Lectura Amena,,"Valle-Inclán, Ramón del",Creador,R.Del Valle Inclán,España,El miedo,24,1 de octubre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,3,521-524,NA
+Lectura Amena,,"Bouret, Alonso",Creador,NA,NA,Portrait en pied,24,1 de octubre de 1905,No,NA,Español,NA,Poesía,NA,Lucila,NA,0.5,524,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Publicidad,24,1 de octubre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,6,NA,"Dentro de la publicidad hay promoción al libro de Perez Triana, De Bogotá al Atlántico, Agencia Gasam, Indican a qué periódicos se suscriben en la agencia de Luis Cano, "
+Lectura Amena,,Anónimo,Creador,NA,NA,Lectura Amena,25,15 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,sumario
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,25,15 de octubre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,,"Rodríguez Moya, Francisco",Creador,NA,Colombia,Callemos!,25,15 de octubre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/06/23,525-527,NA
+Lectura Amena,,"Palma, Clemente",Creador,NA,Perú,El Quinto evangelio,25,15 de octubre de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Valera, Juan",NA,03/04/23,527-530,NA
+Lectura Amena,,"Merizalde Uribe, Antonio",Creador,NA,Colombia,Pétalos de sangre,25,15 de octubre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,531-532,NA
+Lectura Amena,,"Martínez Sierra, Gregorio",Creador,NA,España,Meditación de Abril,25,15 de octubre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,532-535,NA
+Lectura Amena,,"Carvajal, M.A.",Creador,NA,Colombia,Horas fugaces,25,15 de octubre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,536,NA
+Lectura Amena,,"Poe, Edgar Allan",Creador,NA,Estados Unidos,A. Mézieres,25,15 de octubre de 1905,Sí,NA,Español,Inglés,Prosa Ficción,NA,NA,NA,05/05/23,537-542,Transferencia: traducción
+Lectura Amena,,"D'Annunzio, Gabriele",Creador,NA,Italia,Alla giovenezza,25,15 de octubre de 1905,No,NA,Italiano,Italiano,Poesía,NA,NA,NA,0.5,542,Transferencia: traducción
+Lectura Amena,,"D'Annunzio, Gabriele",Creador,NA,Italia,A la juventud,25,15 de octubre de 1905,Sí,"Ospina V, M",Español,Italiano,Poesía,NA,NA,NA,0.5,542,Transferencia: traducción
+Lectura Amena,,"Darío, Rubén",Creador,NA,Nicaragua,En el mar,25,15 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/05/23,543-544,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Certamen Industrial,25,15 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,De Todo,NA,NA,2,NA,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Sebastián Hoyos,25,15 de octubre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Feria y Exposición de Aniamles en Medellín,25,15 de octubre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,NA
+Lectura Amena,,Anónimo,Creador,NA,NA,Lectura Amena,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,sumario
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,Publicidad sobre Agencia Gasam suscripciones de periódicos y libros
+Lectura Amena,,"Palma, Clemente",Creador,NA,Perú,Los canastos,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,3,545-547,NA
+Lectura Amena,,"Robledo, Eusebio",Creador,NA,Colombia,Grietas,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,548,NA
+Lectura Amena,,"Cano, Luis",Director,NA,Colombia,Funeral,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,"Merizalde, Antonio",NA,0.5,549,NA
+Lectura Amena,,"Ugarte, Manuel",Creador,NA,Argentina,Un sueño de Margot,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,549-552,NA
+Lectura Amena,,"Merizalde Uribe, Antonio",Creador,NA,Colombia,Contrastes,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,553,NA
+Lectura Amena,,"Gramont, Luciano",Creador,NA,NA,Calidoscopio,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,5,554-558,NA
+Lectura Amena,,"Cervera, Manuel S.",Creador,NA,Colombia,Preerraquelina,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,559,NA
+Lectura Amena,,"D'Enjoÿ, Paul",Creador,NA,Francia,Flor de Mayo (Cuento Chino),26 y 27,15 de noviembre de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,Lectura Amena,NA,04/08/23,559-564,Transferencia: traducción
+Lectura Amena,,"Jaramillo P., Escipión",Creador,NA,Colombia,Compasión,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,Lectura Amena,NA,0.8,564,NA
+Lectura Amena,,"D'Ors, Eugenio",Creador,NA,España,Gracias,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,1,565,NA
+Lectura Amena,,"Restrepo Restrepo, Antonio María",Creador,AB. Farina,Colombia,Rapto de las quimeras,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,2,566-567,NA
+Lectura Amena,,"González Serrano, Urbano",Creador,NA,España,¿La felicidad?,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/07/23,568-570,NA
+Lectura Amena,,"Jaramillo, Joaquín Emilio",Creador,Joaquín E. Jaramillo A.,Colombia,Sones suaves,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,"Silva, José Asunción",NA,1,570-571,NA
+Lectura Amena,,"Nervo, Amado",Creador,NA,México,El miedo á la muerte (Otras vidas),26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,4,571-575,NA
+Lectura Amena,,"Villegas, Aquilino",Creador,NA,Colombia,Balada de la mala Reputación,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,01/08/23,575-577,Epígrafe de Verlaine
+Lectura Amena,,"Vives, Luis",Creador,NA,España,El honorable público,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,577-578,NA
+Lectura Amena,,"Marquina, Eduardo",Creador,NA,España,La alegría fecunda,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Poesía,NA,NA,NA,02/02/23,579-581,NA
+Lectura Amena,,"Daudet, Alphonse",Creador,NA,Francia,Un matrimonio de cantantes,26 y 27,15 de noviembre de 1905,Sí,NA,Español,Francés,Prosa Ficción,NA,NA,NA,03/08/23,581-584,Transferencia: traducción
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,26 y 27,15 de noviembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Promocionan el libro Escritos y discursos de Francisco de P. Muñoz
+Lectura Amena,,Anónimo,Creador,NA,NA,Lectura Amena,28,30 de noviembre de 1905,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,NA,Sumario
+Lectura Amena,,Anónimo,Creador,NA,NA,NA,28,30 de noviembre de 1905,No,NA,Español,NA,Publicidad,NA,NA,NA,1,NA,"Se promociona la ""Agenia Gasam"""
+Lectura Amena,,"Castro, Alfonso",Creador,NA,Colombia,Hija Espiritual,28,30 de noviembre de 1905,No,NA,Español,NA,Prosa Ficción,NA,"Carrasquilla, Tomás",NA,24,585-608,Epígrafe de Máximo Gorki
+Lectura Amena,,"Montoya Pérez, Rafael",Creador,NA,Colombia,Felipe II,30,15 de enero de 1906,No,NA,Español,NA,Prosa Ficción,NA,"Echavarría, Alfonso",NA,04/05/23,629-633,Empieza aquí la paginación porque el número 29 no se ha podido encontrar
+Lectura Amena,,"Marín, Abel",Creador,NA,Colombia,Memento,30,15 de enero de 1906,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,633,NA
+Lectura Amena,,"Castro, Alfonso",Creador,NA,Colombia,El alma de las cosas,30,15 de enero de 1906,No,NA,Español,NA,Prosa Ficción,NA,"Cano, Fidel",NA,7,634-640,NA
+Lectura Amena,,"Nieto, Ricardo",Creador,NA,Colombia,Perfume exótico (Baudelaire-Fleurs du mal),30,15 de enero de 1906,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,641,NA
+Lectura Amena,,"Cano, Luis",Director,NA,Colombia,En marcha,30,15 de enero de 1906,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,641,NA
+Lectura Amena,,"Wyzewa, Teodor de",Creador,NA,Polonia,Henri Ibsen,30,15 de enero de 1906,Sí,NA,Español,Polaco,Prosa Ficción,NA,NA,NA,03/05/23,642-647,Transferencia: traducción
+Lectura Amena,,"Jaramillo A., Roberto",Creador,NA,Colombia,"Sobre ""Crisalidas"" (1)",30,15 de enero de 1906,No,NA,Español,NA,Poesía,NA,NA,NA,01/05/23,647-648,NA

@@ -1,0 +1,886 @@
+---
+title: "Red de revistas colombianas de la primera mitad del siglo XX"
+output: 
+  html_notebook: 
+    toc: yes
+    code_folding: hide
+    highlight: kate
+    theme: cosmo
+  html_document: 
+    toc: yes
+    highlight: zenburn
+    theme: readable
+    df_print: default
+---
+
+# Modelado de datos para el análisis de redes en revistas colombianas
+
+Por:  
+- Nancy Vargas Castro  
+- Danilo Penagos Jaramillo  
+
+
+## Paquetes o bibliotecas necesarios
+```{r Carga de paquetes}
+library(dplyr)
+library(shadowtext)
+library(visNetwork)
+library(tnet)
+library(DT)
+
+```
+
+## 1. Modelo de datos
+
+### 1.1 Importación de los datos
+En este data sprint trabajamos con 12 revistas editadas entre 1890 y 1915. Cada uno de los modelos de datos se carga en una variable que corresponde con el nombre de la revista. 
+
+```{r Importación de datos}
+
+alpha <- read.csv("datos/revistas/Alpha_limpia.csv")
+bohemia_alegre <- read.csv("datos/revistas/BohemiaAlegrelimpia.csv")
+contemporanea <- read.csv("datos/revistas/Contemporanea_limpia.csv")
+#cultura <- read.csv("datos/revistas/Culturalimpia.csv")
+montannes <- read.csv("datos/revistas/ElMontañeslimpia.csv")
+repertorio <- read.csv("datos/revistas/ElRepertoriolimpia.csv")
+gruta <- read.csv("datos/revistas/LaGrutalimpia.csv")
+lectura_amena <- read.csv("datos/revistas/Lectura_Amenalimpia.csv")
+lectura_arte <- read.csv("datos/revistas/Lecturartelimpia.csv")
+literaria <- read.csv("datos/revistas/Literarialimpia.csv")
+moderna <- read.csv("datos/revistas/Modernalimpia.csv")
+panida <- read.csv("datos/revistas/Panidalimpia.csv")
+trofeos <- read.csv("datos/revistas/Trofeoslimpia.csv")
+                    
+```
+
+### 1.2. Selección variables de interés
+Seleccionamos de nuestros modelos solo las variables que nos interesan para hacer un primer análisis de la red. A saber: nombre de la revista, coloaborador, rol, seudónimo, país de origen, título, tipo.
+
+```{r Reducción del dataset }
+alpha <- alpha |> 
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+bohemia_alegre <- bohemia_alegre  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+contemporanea <- contemporanea  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+cultura <- cultura  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+gruta <- gruta  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+lectura_amena <- lectura_amena  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+lectura_arte <- lectura_arte  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+literaria <- literaria  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+moderna <- moderna  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+montannes <- montannes  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+panida <- panida  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+repertorio <- repertorio  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+trofeos <- trofeos  |>
+  select(NombreR, Colaborador, Roles, Seudonimo, PaisOrigen, Titulo, Tipo)
+
+```
+
+### 1.3. Creación data set `revistas` 
+Creamos un data set único llamado `revistas` con todas nuestros modelos reducidos. 
+
+```{r Creación dataset único}
+revistas <- bind_rows(alpha, bohemia_alegre, contemporanea, cultura,
+                      gruta, lectura_amena, lectura_arte, literaria, moderna,
+                      montannes, panida, repertorio, trofeos)
+
+# Se comprueba que no haya valores NA en la variable colaboradores
+which(is.na(revistas$Colaborador))
+```
+
+Visualizamos las primeras filas en una tabla.
+
+```{r Visulaización dataset único}
+
+datatable(data = revistas,
+          colnames = c("ID", "Nombre de la revista", "Autor", "Rol", "Seudónimo", "País de Origen", "Título", "Tipo de texto"),
+          caption = "Tabla 1. Datos recopilados en el modelo de captura.  (Fuente: Elaboración propia)",
+          filter = "top",
+          class = "compact row-border")
+
+```
+
+## 2. Frecuencia colaboradores
+
+### 2.1. Creación de la tabla de frecuencia de colaboradores
+Aquí, creamos una tabla de datos con el cálculo de la frecuencia de colaboradores en todo nuestro modelo de 13 revistas. Esta tabla incluye las variables `Colaborador` y `Frecuencia`
+
+```{r Frecuencia colaboradores}
+
+colaboradores_revistas <- as.data.frame(table(revistas$Colaborador))
+colaboradores_revistas <- colaboradores_revistas[order(colaboradores_revistas$Freq, decreasing = T), ]
+colnames(colaboradores_revistas) <- c("Colaborador", "Frecuencia")
+
+# 943 colaboradores en lista
+
+
+# Guardamos para revisar manualmente que no haya errores
+#write.csv(conlaboradores_revistas, file = "ColaboradoresRevistas.csv", fileEncoding = "UTF-8", #row.names=FALSE)
+
+```
+
+
+Obtenemos, de este modo, una tabla con **938** entradas. Visualizamos las primeras 10.
+
+```{r Colaboradores revistas}
+
+datatable(data = colaboradores_revistas,
+          caption = "Tabla 2. Colaboradores con mayor número de publicaciones.  (Fuente: Elaboración propia)",
+          filter = "top",
+          class = "compact row-border")
+
+```
+
+
+### 2.2. Limpieza de anónimos y autorías colectivas
+
+Como se observa en la tabla anterior, hay más de 700 registros cuyo colaborador es un "Anónimo". También, hay algunas autorías colectivas que no se han desagregado en los respectivos nombres a cargo de la revista, y otras que es imposible determinar la autoría pues son textos que se publican de otros periódicos o revistas. Para este análisis se descartan. Nos quedamos así con **928** entradas.
+
+```{r Anónimos y autorías colectivas}
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Anónimo", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "La dirección", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Redacción", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Directores", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador !="Colombia, Congreso de", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Le Temps", ] 
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "La redacción", ]  
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Londoño, Víctor Manuel y López, Ismael", ]  
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Review of Revieus", ]  
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador != "Reyes Católicos", ]  
+colaboradores_revistas <- colaboradores_revistas[colaboradores_revistas$Colaborador !="Vicepresidente", ]  
+
+# 928 Observaciones
+
+# Save the result
+#write.csv(colaboradores_revistas, file = "ColaboradoresRevistas.csv", fileEncoding = "UTF-8", row.names=FALSE)
+
+```
+
+### 2.3. Modelo de datos colaboradores
+
+#### 2.3.1. Importación modelo de datos colaboradores.
+Aquí, importamos el modelo de datos de colaboradores ya identificados. De este modelo nos interesan las variables : `Colaborador`, `Fuente`, `Seudonimo`, `Sexo`, `PaisOrigen`, `Nacimiento` y `Muerte`.
+
+```{r Base de datos colaboradores}
+
+colaboradores_BD <- read.csv("datos/colaboradores-bd.csv", header = T, encoding = "UTF-8", stringsAsFactors = FALSE)
+
+# Reducimos la información a las variables esenciales
+colaboradores_BD <- colaboradores_BD[,-c(8:25)]
+
+# Renombramos las columnas
+names(colaboradores_BD) <- c("Colaborador", "Fuente", "Seudonimo", "Sexo", "PaisOrigen","Nacimiento", "Muerte")
+
+```
+
+### 2.4. Comparación de los dos modelos
+En este punto, el objetivo es comparar el modelo de contribudores limpio (con datos biográficos) y el modelo de las 12 revistas con las que estamos trabajando.
+
+```{r Comparación modelos}
+
+colabs_no_encontrados <- anti_join(colaboradores_revistas, colaboradores_BD, by = "Colaborador") 
+# 359 diferencias
+
+#write.csv(colabs_not_found, file = "ColabsNotFound.csv", fileEncoding = "UTF-8", row.names = F)
+
+```
+
+Con esta comparación obtenemos una tabla con los autores que todavía no han sido identificados hasta ahora en la recolección de datos o con los que todavía no han sido ingresados a esta, a pesar que ya tienen información biográfica disponible. 
+
+Esta tabla se puede guardar para hacer correcciones y buscar más información sobre estos autores. 
+
+```{r Colaborares no encontrados}
+
+datatable(data = colabs_no_encontrados,
+          caption = "Tabla 2. Colaboradores no identificados.  (Fuente: Elaboración propia)",
+          filter = "top",
+          class = "compact row-border")
+
+```
+
+
+### 2.5. Colaboradores identificados
+Luego, procedemos a crear una tabla con los autores que sí han sido indentificados. Con estos es con los cuales trabajaremos en nuestro análisis de redes. En este caso tenemos **569** entradas. Guardamos este archivo en un .csv para usos posteriores. 
+
+```{r Unión modelos }
+
+colabs_encontrados <- semi_join(colaboradores_revistas, colaboradores_BD, by="Colaborador")
+# Al menos 569 entradas
+
+# write.csv(revistas, file = "AllRevistas.csv", fileEncoding = "UTF-8", row.names = F)
+```
+
+Ahora podemos visualizar el resultado de los autores encontrados en una tabla que muestra los 15 primeros casos y la frecuencia de aparición en nuestro corpus (número de colaboraciones).
+
+```{r Colaboradores identificados}
+
+datatable(data = colabs_encontrados,
+          caption = "Tabla 2. Colaboradores identificados con mayor número de contribuciones.  (Fuente: Elaboración propia)",
+          filter = "top",
+          class = "compact row-border")
+```
+
+En este punto, creamos un *dataset* único con la información de la base de autores identificados y con los datos de nuestros modelos. Con este podremos observar algunos datos de interés como puede ser el país de origen de los colaboradores, el sexo, los tipos de textos, los roles, etc.
+
+```{r Creación data set único de colaborares encontrados}
+# Creamos un índice para nuestro modelo de revistas
+revistas$ID <- 1:nrow(revistas)
+
+# Unimos los dos data sets, seleccionando la columna "Colaborador" para que 
+# sea la que una ambos archivos
+m_revistas_colabs_BD <- merge(revistas, colaboradores_BD, by = "Colaborador", all.x = T)
+
+# Ahora reordenamos las columnas sacando, además las columnas país de origen de 
+# los modelos y los seudónimos (de la base de datos de colaboradores) 
+m_revistas_colabs_BD <- m_revistas_colabs_BD[,c(8, 1, 3, 10:14, 2, 6, 7)]
+
+# Ordenamos las entradas por el índice
+m_revistas_colabs_BD  <- m_revistas_colabs_BD [order(m_revistas_colabs_BD$ID, decreasing = FALSE), ]
+
+# Cuando esta ordenado, eliminamos los índice de los dataframe
+# "revistas" y "m_revistas_colabs_BD"
+revistas$ID <- NULL
+m_revistas_colabs_BD$ID <- NULL
+
+
+# Guardamos el resultado
+# write.csv(m_revistas_colabs_BD, file = "revistasDatosContributores.csv", fileEncoding = "UTF-8", row.names=FALSE)
+```
+
+
+## 3. Visualización de datos
+
+### 3.1 Colaboradores con mayor número de contribuciones
+
+Ahora, veremos quiénes fueron los autores con un mayor número de publiaciones (textos o imagenes) en nuestro conjunto de revistas. Aquí hemos escogido solo los autores con más de 20 publicaciones.
+
+```{r Colaboradores más prólificos}
+# Esxtraemos los primeros 25 colaboradores
+
+colabs_mas_prolificos <- colaboradores_revistas[1:25,]
+
+```
+
+Esta información la podemos ver representada en la Figura 1.
+
+```{r Visualización colaboradores más prólificos}
+# ppi <- 300
+# tiff(paste0("Colaboradores_mas_publicaciones.tif"), width=20*ppi, height=8*ppi, compression = "lzw", res=ppi)
+
+colabs_mas_prolificos |>
+  mutate(Colaborador = fct_reorder(Colaborador, Frecuencia, .desc = F)) |>
+  ggplot() +
+  geom_col(aes(Frecuencia, Colaborador),fill = "#5e548e") +
+  scale_x_continuous(
+    limits = c(0, 130),
+    breaks = seq(0, 125, by = 20),
+    expand = c(0,0),
+    position = "top"
+  ) +
+  theme(panel.background = element_rect(fill = "white"),
+        axis.ticks.length = unit(0, "mm"),
+        panel.grid.major.x = element_line(color = "#A8BAC4", size = 0.3),
+        axis.title = element_blank(),
+        axis.line.y.left = element_line(color = "black"),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size = 10)) +
+    geom_text(
+      data = subset(colabs_red, Frecuencia >= 35),
+      aes(0, y = Colaborador, label = Colaborador),
+      hjust = 0,
+      nudge_x = 0.5,
+      colour = "white",
+      family = "Calibri",
+      size = 3
+  )+
+  geom_shadowtext(
+    data = subset(colabs_red, Frecuencia < 35),
+    aes(Frecuencia, y = Colaborador, label = Colaborador),
+    hjust = 0,
+    nudge_x = 0.5,
+    colour = "#5e548e",
+    bg.colour = "white",
+    family = "Calibri",
+    size = 3
+) +
+  labs(
+    title = "Autores con más contribuciones",
+    subtitle = "Veinte o más colaboraciones publicadas"
+  ) + 
+  theme(
+    plot.title = element_text(
+      family = "Calibri", 
+      face = "bold",
+      size = 16
+    ),
+    plot.subtitle = element_text(
+      family = "Calibri",
+      size = 14
+    ),
+    plot.margin = margin(t = 10, r = 10, b = 20, l = 30, unit = "pt")
+  )
+
+#dev.off()
+
+```
+
+
+### 3.2 Colaboradores mejor conectados
+También, podemos visualizar los colaboradores mejor conectados. En este caso, solo visualizamos los autores con publicaciones en más de cinco revistas.
+
+```{r Colaboradores con mejores conexiones}
+
+# Seleccionamos de nuestra variable "revistas", los colaboradores y los nombres 
+# de la publicación
+colabs_completo <- select(revistas, Colaborador, NombreR)
+
+# Luego contamos en cuantas publicaciones tiene el autor en cada revista
+conexion_colab_revistas <- count(colabs_completo, Colaborador, NombreR)
+
+# Guardamos los datos con solo del autor y la revista
+conexion_colab <- conexion_colab_revistas[,c(1,2)]
+
+# Ahora, agrupamos por colaborador, sumando total de revistas en las que apareció
+conexion_colab %>%
+  group_by(Colaborador) %>%
+  summarise(n_distinct(NombreR)) -> conexion_colab_revistas
+# Ordenamos los datos de forma decreciente
+conexion_colab_revistas <- conexion_colab_revistas[order(conexion_colab_revistas$`n_distinct(NombreR)`, decreasing = T), ]
+
+# Eliminanos los anónimos y las autorías múltiples
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Anónimo", ]
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Directores", ]
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Directores", ] 
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Redacción", ] 
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Le Temps", ] 
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador!= "Colombia, Congreso de", ] # 1 removed
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "La redacción", ] # 1 
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Review of Revieus", ] # 1 removed
+conexion_colab_revistas<- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Reyes Católicos", ] # 1 removed
+conexion_colab_revistas <- conexion_colab_revistas[conexion_colab_revistas$Colaborador != "Vicepresidente", ] # 1 removed
+
+# Finalmente, extraemos los 24 mejor conectados
+colabs_mejor_conectados <- conexion_colab_revistas[1:24,]
+names(colabs_mejor_conectados) <- c("Colaborador", "Nro_conexiones")
+
+```
+
+Presentamos los resultados en la Figura 2. 
+
+```{r Visualización autores mejores conectados}
+
+# Visualizamos los autores con mayor número de conexiones, 
+# esto es la participación en más de cinco revistas
+
+ # tiff(paste0("Colaboradores_mejor_conectados.tif"), width=20*ppi, height=8*ppi, compression = "lzw", res=ppi)
+
+colabs_mejor_conectados |>
+  mutate(Colaborador = fct_reorder(Colaborador, Nro_conexiones, .desc = F)) |>
+  ggplot() +
+  geom_col(aes(Nro_conexiones, Colaborador),fill = "#5e548e") +
+  scale_x_continuous(
+    limits = c(0, 10),
+    breaks = seq(0, 9),
+    expand = c(0,0),
+    position = "top"
+  ) +
+  theme(panel.background = element_rect(fill = "white"),
+        axis.ticks.length = unit(0, "mm"),
+        panel.grid.major.x = element_line(color = "#A8BAC4", size = 0.3),
+        axis.title = element_blank(),
+        axis.line.y.left = element_line(color = "black"),
+        axis.text.y = element_blank(),
+        axis.text.x = element_text(size = 10)) +
+    geom_text(
+      aes(0, y = Colaborador, label = Colaborador),
+      hjust = 0,
+      nudge_x = 0.1,
+      colour = "white",
+      family = "Calibri",
+      size = 3
+  )+
+  labs(
+    title = "Colaboradores mejor conectados",
+    subtitle = "Aparición en cinco o más revistas"
+  ) +
+  theme(
+    plot.title = element_text(
+      family = "Calibri",
+      face = "bold",
+      size = 16
+    ),
+    plot.subtitle = element_text(
+      family = "Calibri",
+      size = 14
+    ),
+    plot.margin = margin(t = 10, r = 10, b = 20, l = 30, unit = "pt")
+  )
+
+# 
+#  dev.off()
+```
+
+
+## 4. Una acercamiento con métodos del Social Network Analysis 
+
+A continuación, proponemos un análisis y visualización de los datos de las revistas basado en un enfoque relacional. Para ello partimos de la idea de que las revistas tiene agencialidad y se pueden considerar nodos dentro de la red. Las relaciones (aristas o edges) que se establecen son de revista a coloborador, y el peso de la relación esta dado por el número de contribuciones que publica la revista de cada autor.
+
+```{r Social Network analysis: aristas}
+# Primero creamos una lista de aristas para obtener todas los enlaces
+aristas_completo <- select(revistas, Colaborador, NombreR)
+
+# Ahora creamos una lista de aristas con los pesos y la estructura from / to / n
+aristas_completo <- count(aristas_completo, NombreR, Colaborador)
+colnames(aristas_completo)[1] <- "from"
+colnames(aristas_completo)[2] <- "to"
+colnames(aristas_completo)[3] <- "n"
+
+# Descartamos todas las entradas con autorías colectivas, así como los anónimos
+aristas_completo <- aristas_completo[aristas_completo$to != "Anónimo", ] # 12 removed
+aristas_completo <- aristas_completo[aristas_completo$to != "La dirección", ] 
+aristas_completo <- aristas_completo[aristas_completo$to != "Directores", ] 
+aristas_completo <- aristas_completo[aristas_completo$to != "Redacción", ] 
+aristas_completo <- aristas_completo[aristas_completo$to != "Le Temps", ] 
+aristas_completo <- aristas_completo[aristas_completo$to != "Colombia, Congreso de", ] # 1 removed
+aristas_completo <- aristas_completo[aristas_completo$to != "La redacción", ] # 1 
+aristas_completo <- aristas_completo[aristas_completo$to != "Review of Revieus", ] # 1 removed
+aristas_completo <- aristas_completo[aristas_completo$to != "Reyes Católicos", ] # 1 removed
+aristas_completo <- aristas_completo[aristas_completo$to != "Vicepresidente", ] # 1 removed
+
+# Guardamos el resultado
+#write.csv(aristas_completo, file = "aristas_completo.csv", fileEncoding = "UTF-8", row.names=FALSE)
+```
+
+El resultado de ello es una red bimodal o bipartita con dos tipos de nodos: "Revistas" y "Personas". La estructura de este conjunto de datos es:  
+- id (i.e. nombre de los nodos)  
+- n (Número de contribuciones)  
+- tipo (Revista o Persona)
+
+```{r Social Network analysis: creación de nodos}
+
+# De la lista de aristas creamos los nodos
+nodos_completo <- aggregate(n ~ to, data=aristas_completo, FUN=sum)
+
+# Añadimos la columna "tipo"
+nodos_completo <- cbind(tipo = "Persona", nodos_completo)
+
+# Reordenamos nuestro conjunto de datos
+nodos_completo <- nodos_completo[,c(2,3,1)]
+colnames(nodos_completo)[1] <- "id"
+
+# ¿Cuántos coloboradores tiene cada revista?
+revistas_conteo_colaboradores <- count(aristas_completo, from)
+revistas_conteo_colaboradores <- cbind(tipo = "Revista", revistas_conteo_colaboradores)
+revistas_conteo_colaboradores <- revistas_conteo_colaboradores[,c(2,3,1)]
+colnames(revistas_conteo_colaboradores)[1] <- "id"
+colnames(revistas_conteo_colaboradores)[2] <- "n"
+
+# Convertimos la columna tipo a carácteres
+nodos_completo$tipo <- as.character(nodos_completo$tipo)
+class(nodos_completo$tipo) # Debe mostrar "character"
+
+# Hacemos los mismo para el caso de las revistas
+revistas_conteo_colaboradores$tipo <- as.character(revistas_conteo_colaboradores$tipo)
+class(revistas_conteo_colaboradores$tipo) # Debe mostrar "character"
+
+# bind the two dataframes together
+nodos_completo <- rbind(revistas_conteo_colaboradores, nodos_completo)
+
+# Guardamos el resultado
+#write.csv(nodos_completo, file = "nodos_completo.csv", fileEncoding = "UTF-8", row.names=FALSE)
+```
+
+Ahora bien, para el análisis cuantitivo creamos una lista de nodos adicionales. La estructura de datos de este set de datos tiene las siguiente variables:  
+- id (un identificador)  
+- nombre (Nombre de los nodos)  
+- tipo ("Revista" o "Persona")  
+- peso (El número de nodos (*weight*))
+
+```{r Social Network analysis: nodos alternativos}
+
+nodos_completo_alt <- nodos_completo
+
+# Renombramos la primera columna a "name"
+colnames(nodos_completo_alt)[1] <- "name"
+
+# Renombramos la segunda columna a  "weight"
+colnames(nodos_completo_alt)[2] <- "weight"
+
+# Agregamos un índice
+nodos_completo_alt$id <- 1:nrow(nodos_completo_alt)
+
+# Reordenamos el dataframe y descartamos la columna tipo
+nodos_completo_alt <- nodos_completo_alt[,c(4,1,2)]
+
+# Guardamos el resultado
+# write.csv(nodos_completo_alt, file = "nodos_completos_alternativos.csv", fileEncoding = "UTF-8", row.names=FALSE)
+```
+
+Para la visualización interactiva creamos una tabla de nodos y una tabla de aristas con la siguiente estructura:  
+- id (El índice o identificador)   
+- vertex (El nombre de los nodos)  
+- nsum (La suma total de publicaciones)
+
+```{r Social Network analysis: nodos alternativos para análisis}
+# Esta lista de nodos es necesaria para la visualización interactiva con pesos
+nodos_suma_colaboraciones <- nodos_completo
+
+# Renombramos la primera columna como "vertex"
+colnames(nodos_suma_colaboraciones)[1] <- "vertex"
+
+# Renombramos la segunda columna como "nsum"
+colnames(nodos_suma_colaboraciones)[2] <- "nsum"
+
+# Añadimos un índice
+nodos_suma_colaboraciones$id <- 1:nrow(nodos_suma_colaboraciones)
+
+# Reordenamos el dataframe
+nodos_suma_colaboraciones <- nodos_suma_colaboraciones[,c(4,1,3,2)]
+
+# Creamos una lista alternativa de aristas y otra de nodos
+# para calcular algunas medidas en nuestra red bimodal
+
+lista_aristas <- aristas_completo
+lista_nodos <- nodos_suma_colaboraciones
+
+colnames(lista_aristas)[1] <- "source" # Renombramos la columna "from" to "source"
+colnames(lista_aristas)[2] <- "target" # Renombramos la columna "to" to "target"
+
+# Esto evita la confusión en los nombres de columna
+
+# Seguido creamos una variabale para remplazar los nombres en la columna
+# "from" con los ids en una tabla de aristas
+aristas_id <- lista_aristas |>
+  left_join(lista_nodos, by = c("source" = "vertex")) |>
+  rename(from = id) 
+
+aristas_id <- aristas_id |> 
+  left_join(lista_nodos, by = c("target" = "vertex")) %>% 
+  rename(to = id) 
+
+# Nuevamente, ambas tablas se combinan;
+# en el proceso, se comparan tanto las columnas de aristas "target" (de la lista de aristas)
+# como las de vértices (de la lista de nodos).
+# En el segundo paso, la columna "id" se renombra, esta vez,
+# a "to".
+# Ahora hay 9 columnas.
+
+# Ahora seleccionamos las 3 columnas con los ID y el número de contribuciones
+aristas_id <- select(aristas_id, from, to, n) 
+
+ # Si queremos comprabar que todo salio bien imprimimos el encabezado
+# head(aristas_id)
+
+# Renomsbramos las columnas de esta tabla
+colnames(aristas_id) <- c("V1","V2","weight")
+
+```
+
+
+### 4.1 Cálculo de la *betweenness*
+
+Mientras que los autores con mayor vínculos se determinaron por el número absoluto de apariciones en las revistas, ahora calcularemos la *betweenness* que tiene cada revista. Para ello utilizamos la biblioteca `tnet` creada para trabajar con redes bimodales, como la nuestra.   
+
+```{r Cálculo de la centralidad por medio de la betweenness}
+
+# # copy the existing node list into a new object
+# nodos <- nodos_completo_alt
+# 
+# # convert the existing edgelist into a matrix
+# tm <- aristas_id
+# tm <- as.matrix(tm)
+# head(tm)
+# # 
+# # transpose the list
+# mt <- tm[, c(2, 1, 3)]
+# head(mt)
+# # 
+# # Load tnet
+# library(tnet)
+
+# Primero calculamos la centralidad para una red bimodal con pesos 
+# con la biblioteca 'tnet'
+net <- as.tnet(aristas_id, type = "weighted two-mode tnet") 
+
+
+# Ahora calculamos el grado bimodal (two modo degree)
+out <- degree_tm(net, measure="degree")
+
+# Ponemos un nombre a la columna
+colnames(out)[2] <- "grado bimodal" 
+
+# Creamos una proyección de red monomodal
+net1 <- projecting_tm(net, "Newman")
+
+# Calculamos el grado de esta red
+tmp <- degree_w(net1)[,"degree"]
+
+# Añadimos los datos a la tabla
+out <- data.frame(out, projecteddegree=tmp)
+
+# Calculamos la "betweenness"
+tmp <- betweenness_w(net1)[,"betweenness"]
+out <- data.frame(out, projectedbetweenness=tmp)
+
+# De nuestro conjunto de nodos seleccionamos el nombre
+nodos_completo_alt |>
+  select(name) -> nodename
+
+# Lo agregamos a nuestro resultado
+out[,"node"] <- nodename
+
+# Guardamos el resultado
+# write.csv(out, file = "WeightedTWoModeNet-ComparisonDegree.csv", fileEncoding = "UTF-8", row.names=FALSE)
+
+```
+El resultado lo podemos ver en la siguiente tabla
+
+```{r Tabla betweenness}
+
+datatable(data = out,
+          caption = "Tabla 3. Revistas con mayor centralidad (betweeness)",
+          filter = "top",
+          class = "compact row-border")
+```
+
+
+### 4.2. Cálculo de la modularidad
+
+Ahora procedemos al cálculo de la modularidad en nuestro conjunto de trece revistas. Esto lo hacemos utilizando el algoritmo `cluster_walktrap`. Recuperamos para este próposito las variables `lista de nodos` y `aristas_id`. Con la biblioteca `igraph` convertimos nuestros nodos y nuestras aristas en una grafo.
+
+```{r Cálculo de la modularidad}
+
+nodos_visualizacion <- lista_nodos
+aristas_visualizacion <- aristas_id
+
+# Cambiamos el nombre de las columnas
+names(aristas_visualizacion) <- c("from", "to", "weight")
+
+# Creamos nuestro grafo
+red_revista <- graph_from_data_frame(aristas_visualizacion, vertices = nodos_visualizacion, directed = T)
+
+# Ahora calculamos la modularidad 
+modularidad <- cluster_walktrap(red_revista)
+
+# Mostramos el resultado
+modularity(red_revista, membership(modularidad), directed = T)
+# 0.6224363
+
+# Agregamos la modularidad a nuestro grafo
+V(red_revista)$community <- modularidad$membership
+
+# Añadimos una columna con este dato a nuestra tabla de nodos como grupos ('group')
+nodos_visualizacion$group <- V(red_revista)$community
+
+
+```
+
+
+### 4.3. Visualización interactiva de la red
+En este momento podemos visualizar nuestro grafo en forma de red, distinguiendo los grupos de revistas. Para ello usamos la biblioteca `visNetwork`.
+
+
+```{r Visualización de la red}
+
+colnames(nodos_visualizacion)[colnames(nodos_visualizacion) == "vertex"] <- "label"
+
+visNetwork(nodos_visualizacion, aristas_visualizacion) |>
+  visOptions(highlightNearest = TRUE, selectedBy = "label")
+
+
+```
+
+
+## 5. Hacia una red modernista hispanoamericana
+
+En este punto, podemos traer los datos sobre revistas del modernimo hispanomericano e integrarlos a nuestro análisis, visualizando una red ampliada. 
+
+```{r Carga de datos revistas modernistas hispanoamericanas}
+
+# Cargamos el data set de revistas del modernismo hispanoamericano
+revistas_modernismo <- read_csv("datos/revistas-modernismo.csv", show_col_types = F)
+
+# Seleccionamos las variables "Contributor" y "Magazine"
+colabs_rev_modernismo <- select(revistas_modernismo, "Contributor: Last name / first name", Magazine)
+
+# Cambiamos los nombres de las columnas
+names(colabs_rev_modernismo) <- c("Colaborador", "NombreR")
+
+# Creamos una variable para unir nuestros datos de los colaboradores
+# con los de las revistas modernistas
+all_revistas_modernismo <- rbind(colabs_completo, colabs_rev_modernismo)
+
+# Ahora creamos una lista de aristas con los pesos y la estructura from / to / n
+aristas_modernismo <- count(all_revistas_modernismo, NombreR,  Colaborador)
+colnames(aristas_modernismo)[1] <- "from"
+colnames(aristas_modernismo)[2] <- "to"
+colnames(aristas_modernismo)[3] <- "n"
+
+# Descartamos todas las entradas con autorías colectivas, así como los anónimos
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Anónimo", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "La dirección", ]
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Directores", ]
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Redacción", ]
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Le Temps", ]
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Colombia, Congreso de", ]  
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "La redacción", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Review of Revieus", ]  
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Reyes Católicos", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Vicepresidente", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Anonymous", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "(various)", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "***", ] 
+aristas_modernismo <- aristas_modernismo[aristas_modernismo$to != "Editorial department", ] 
+
+# 3918 edges remain; Guardamos el resultado
+# write.csv(aristas_modernismo, file = "AristasRevistasModernismo.csv", fileEncoding = "UTF-8", row.names=FALSE)
+```
+
+Al igual que con las revistas colombianas, creamos una bimodal o bipartita con dos tipos de nodos: "Revistas" y "Personas". La estructura de este conjunto de datos es:  
+- id (i.e. nombre de los nodos)  
+- n (Número de contribuciones)  
+- tipo (Revista o Persona)
+
+```{r Creación de nodos revistas modernistas}
+
+nodos_modernismo <- aggregate(n ~ to, data=aristas_modernismo, FUN=sum)
+
+# Añadimos la columna tipo
+nodos_modernismo <- cbind(tipo = "Persona", nodos_modernismo)
+
+# Reordenamos las columnas del dataframe
+nodos_modernismo <- nodos_modernismo[,c(2,3,1)]
+colnames(nodos_modernismo)[1] <- "id"
+
+# Hacemos un contento de cuántos colaboradores tiene cada revista
+rev_modernismo_conteo <- count(aristas_modernismo, from)
+rev_modernismo_conteo <- cbind(tipo = "Revista", rev_modernismo_conteo)
+rev_modernismo_conteo <- rev_modernismo_conteo[,c(2,3,1)]
+colnames(rev_modernismo_conteo)[1] <- "id"
+colnames(rev_modernismo_conteo)[2] <- "n"
+
+# Convertimos la columna tipo a carácteres
+nodos_modernismo$tipo <- as.character(nodos_modernismo$tipo)
+class(nodos_modernismo$tipo)
+
+# Hacemos lo mismo en los datos de la revistas
+rev_modernismo_conteo$tipo <- as.character(rev_modernismo_conteo$tipo)
+class(rev_modernismo_conteo$tipo)
+
+# Unimos nuestros dos conjuntos de datos
+nodos_modernismo <- rbind(rev_modernismo_conteo, nodos_modernismo)
+
+# Guardamos el resultado
+#write.csv(nodos_modernismo, file = "All-Revistas-Modernismo-Nodes.csv", fileEncoding = "UTF-8", row.names=FALSE)
+
+```
+
+### 5.1 Cálculo de la modularidad
+
+Aquí nos interesa ver como se agrupan las revistas colombianas en relación con las revistas del corpus modernista. Para ello calculamos la modularidad a partir de las comunidades, como lo hicimos anteriormente, para ello creamos la lista de nodos y aristas alternativa para el modernismo. 
+
+```{r Creación nodos alternativos modernismo}
+
+nodos_suma_modernismo <- nodos_modernismo
+
+# Renombramos la primera columna como "vertex"
+colnames(nodos_suma_modernismo)[1] <- "vertex"
+
+# Renombramos la segunda columna como "nsum"
+colnames(nodos_suma_modernismo)[2] <- "nsum"
+
+# Añadimos un índice
+nodos_suma_modernismo$id <- 1:nrow(nodos_suma_modernismo)
+
+# Reordenamos el dataframe
+nodos_suma_modernismo <- nodos_suma_modernismo[,c(4,1,3,2)]
+
+# Creamos una lista alternativa de aristas 
+# para calcular la modularidad
+
+lista_aristas_modernismo <- aristas_modernismo
+lista_nodos_modernismo <- nodos_suma_modernismo 
+
+colnames(lista_aristas_modernismo)[1] <- "source" # Renombramos la columna "from" to "source"
+colnames(lista_aristas_modernismo)[2] <- "target" # Renombramos la columna "to" to "target"
+
+# Seguido creamos una variabale para remplazar los nombres en la columna "from"
+# "from" con los ids 
+aristas_modernismo_id <- lista_aristas_modernismo |>
+  left_join(lista_nodos_modernismo, by = c("source" = "vertex")) |>
+  rename(from = id) 
+
+aristas_modernismo_id <- aristas_modernismo_id |> 
+  left_join(lista_nodos_modernismo, by = c("target" = "vertex")) |>
+  rename(to = id) 
+
+aristas_modernismo_id <- select(aristas_modernismo_id, from, to, n) 
+# head(aristas_modernismo_id) # Comprobamos que todo este correcto
+
+# Renombramos las columnas
+colnames(aristas_modernismo_id) <- c("V1","V2","weight")
+
+```
+
+Ahora podemos calcular la modularidad.
+
+```{r Cálculo de la modularidad red modernista}
+
+nodos_vis_modernismo <- lista_nodos_modernismo
+aristas_vis_modernismo <- aristas_modernismo_id
+
+# Cambiamos el nombre de las columnas
+names(aristas_vis_modernismo) <- c("from", "to", "weight")
+
+# Creamos nuestro grafo
+red_revista_modernismo <- graph_from_data_frame(aristas_vis_modernismo, vertices = nodos_vis_modernismo, directed = T)
+
+# Ahora calculamos la modularidad 
+modularidad_modernismo <- cluster_walktrap(red_revista_modernismo)
+
+# Mostramos el resultado
+modularity(red_revista, membership(modularidad_modernismo), directed = T)
+# 0.6224363
+
+# Agregamos la modularidad a nuestro grafo
+V(red_revista_modernismo)$community <- modularidad_modernismo$membership
+
+# Añadimos una columna con este dato a nuestra tabla de nodos como grupos ('group')
+nodos_vis_modernismo$group <- V(red_revista)$community
+
+```
+
+### 5.2 Visualización red modernista
+Hecho esto, podemos visualizar la red de revistas.
+
+```{r Visualización red modernista}
+
+colnames(nodos_vis_modernismo)[colnames(nodos_vis_modernismo) == "vertex"] <- "label"
+
+visNetwork(nodos_vis_modernismo, aristas_vis_modernismo) |>
+  visOptions(highlightNearest = TRUE, selectedBy = "label")
+
+```
+

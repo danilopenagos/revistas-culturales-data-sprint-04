@@ -1,0 +1,204 @@
+NombreR,NumContrib,Colaborador,Roles,Seudonimo,PaisOrigen,Titulo,NumFasciculo,Fecha,Traduccion,Traductor,Lengua,LenguaOriginal,Tipo,TipoIndice,Dedicatoria,ObrasResenadas,CantidadPaginas,Paginacion,Comentarios
+Lectura y Arte,1,"Cano, Francisco Antonio",Director,NA,Colombia,Estudio decorativo,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,1,Portada
+Lectura y Arte,5,"Cano, Francisco Antonio",Director,FAC,Colombia,NA,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,3,"Acompaña el texto anterior, ajustado al contenido"
+Lectura y Arte,6,"Ospina Vásquez, Mariano",Creador,M.O.V.,Colombia,Temas de conversación. Se solicita un apostol.,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/05/23,04/05/23,Textos en dos columnas. Sobre la educación en Colombia.
+Lectura y Arte,7,"Restrepo, Saturnino",Creador,NA,Colombia,Sombria.,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,4,05/09/23,NA
+Lectura y Arte,8,"Cano, Francisco Antonio",Director,FAC,Colombia,NA,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,06/07/23,"Ilustraciones en varias páginas que acompañan al texto, con temática similar pero no totalmente fiel al relato"
+Lectura y Arte,9,"Cano, Antonio José",Director,NA,Colombia,Abanico,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,10,NA
+Lectura y Arte,10,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,10,"Ilustración de un abanico que acompaña el poema anterior, en gran tamaño y que sirve de fondo al texto"
+Lectura y Arte,11,"Restrepo Restrepo, Carlos Eugenio",Creador,NA,Colombia,Cera y diamante.,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/03/23,11/12/23,"Sobre Rafael Giraldo y Viana. Reproduce texto publicado en El Casino Literario en 1887, y completa con uno nuevo lamentando su muerte."
+Lectura y Arte,12,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,11,"Imagen de Rafael Giraldo y Viana, firmado MTM"
+Lectura y Arte,13,"Fernández Avendaño, Enrique Wenceslao",Creador,NA,Colombia,A Rafael Giraldo y Viana,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,12,NA
+Lectura y Arte,14,"Castell, Ángel María",Creador,NA,España,Perez Galdos y los episodios nacionales.,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,01/12/13,"Sobre la trayectoria literaria de Pérez Galdós. El artículo aparece originalmente ese mismo año: enel diario español  ABC, 26 de febrero de 1903."
+Lectura y Arte,19,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,15,Imagen del acto del acróbata
+Lectura y Arte,20,"Montoya, Antonio José",Creador,"Montoya, José",Colombia,Cronica literaria,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Reseña,Cronica,NA,"Páginas locas, Abel Farina (poesía);
+Notas humanas, Alfonso Castro (cuento);
+Aires antioqueños, José Velásquez (poesía);
+El recluta, varios autores (cuento);
+Navidades, Fidel Cano (poesía);
+Poesías, Epifanio Mejía;
+Oración por todos, Victor Hugo (traducción de Fidel Cano);
+Salve, Regina!, Tomás Carrasquilla (novela).",02/09/23,"16-17, 19",Dice que la traducción del texto de Victor Hugo es mejor que la que hizo Andrés Bello.
+Lectura y Arte,25,"Tobón Mejía, Marco",Director,Sempronio,Colombia,El gran negocio,Año 1º Nº 1,01/07/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,20,"Ilustración de un hombre que representa a EE.UU. (Tío Sam) mirando con malicia un mapa de Panamá, con esta inscripción: ""MAPA de acuerdo con los deseo del Tío"". En la imagen hay balas y cañones."
+Lectura y Arte,26,"Cano, Francisco Antonio",Director,FAC,Colombia,Recuerdo de París,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,21,"Fuente de la plaza del observatorio, en negro y rojo"
+Lectura y Arte,27,"Latorre, Francisco A.",Ninguno de los anteriores,NA,Colombia,Condiciones de esta revista.,Nº 2,01/08/03,No,NA,Español,NA,Publicidad,NA,NA,NA,0.2,22,"Firma como ""agente general"", precios de la suscripción y recepción de materiales."
+Lectura y Arte,29,"Latorre, Gabriel",Creador,NA,Colombia,A guisa de prologo,Nº 2,01/08/03,No,NA,Español,NA,Reseña,NA,NA,"Roque Yarza, Efe Gómez",1,22-23,"Introducción a algunas escenas de un drama ""fresquecito y aún inédito"" de Efe Gómez"
+Lectura y Arte,30,"Cano, Francisco Antonio",Director,FAC,Colombia,NA,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,23,Sobre la obra de Efe Gómez
+Lectura y Arte,31,"Gómez Escobar, Francisco",Creador,Efe Gómez,Colombia,Roque Yarza,Nº 2,01/08/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,23-27,Acto tercero
+Lectura y Arte,32,"Cano, Francisco Antonio",Director,FAC,Colombia,NA,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.8,26-27,Ilustraciones relacionadas con la obra de Efe Gómez
+Lectura y Arte,33,"Merezhkovski, Dmitri",Creador,NA,Rusia,El hermano Parfeno.,Nº 2,01/08/03,Sí,NA,Español,Ruso,Prosa Ficción,NA,NA,NA,01/06/23,28-29,NA
+Lectura y Arte,34,"Velásquez García, José",Creador,NA,Colombia,Julio Echavarria.,Nº 2,01/08/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,29,Sobre la muerte de Julio Echavarría
+Lectura y Arte,35,"Vidal, Gonzalo",Creador,NA,Colombia,Lo Soñado,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,01/06/23,30-31,"Para Lectura y Arte. Partitura sin letra, impresa en Litografía Medellín"
+Lectura y Arte,36,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,30-31,Ilustración integrada a la partitura
+Lectura y Arte,37,"Nogales, José",Creador,NA,España,El lirio azul,Nº 2,01/08/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,32,Posiblemente tomado de: Blanco y negro (Madrid. 1891) 27/12/1902página 22
+Lectura y Arte,39,"Castilla Baena, Clodomiro",Creador,NA,Colombia,A una calavera,Nº 2,01/08/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,34,Acompañada de ilustración
+Lectura y Arte,40,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,34,"Ilustración de un marco con una calavera y gusanos, que bordea el poema anterior"
+Lectura y Arte,41,"Machado, Manuel",Creador,NA,España,La modelo,Nº 2,01/08/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,34,Con nota introductoria: reproducción de textos de la revista Helios de Madrid
+Lectura y Arte,42,"Machado, Manuel",Creador,NA,España,Serenade,Nº 2,01/08/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,34,NA
+Lectura y Arte,44,"Castro, Alfonso",Creador,NA,Colombia,La abuela,Nº 2,01/08/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.4,35,NA
+Lectura y Arte,45,"Cano, Antonio José",Director,NA,Colombia,La abuela,Nº 2,01/08/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,35,Basado en el texto anterior. Con la inscripción: de Alfonso Castro.
+Lectura y Arte,47,"Robledo Villa, Alonso",Creador,NA,Colombia,Recuerdo,Nº 2,01/08/03,No,NA,Español,NA,Prosa No ficción,NA,Dolores (e hijos),NA,01/01/23,36-37,"A Dolores y a sus hijitos. Sobre la vida y obra de Antonio Duque, en ocasión de su muerte"
+Lectura y Arte,48,"Tobón Mejía, Marco",Director,MTM,Colombia,S.S. Pio X (Giuseppe Sarto),Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,NA,Esta página no se cuenta en la revista. Con la inscripción: Obsequio de Lectura y Arte. Le incluyen un sello con las siglas de la revista
+Lectura y Arte,49,"Cano, Francisco Antonio",Director,NA,Colombia,Monumento a Girardot,Nº 2,01/08/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.7,37,"Sobre el concurso para el monumento a Girardot. Incluyen nota de pie de página, felicitando a Horacio M. Rodríguez por haber ganado, de lo que se enteraron luego."
+Lectura y Arte,52,"Francisco, Julio de",Creador,NA,Colombia,Nada.,Nº 2,01/08/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,38,Escrito a mano. Para el album del Club Brelán
+Lectura y Arte,58,"Tobón Mejía, Marco",Director,Sempronio,Colombia,Lectura y Arte no se presta,Nº 2,01/08/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,40,Historieta de una situación de un suscriptor al que le quitaron prestado un ejemplar de la revista y se lo devolvieron en malas condiciones. Litografía J. I. Arango
+Lectura y Arte,59,"Tobón Mejía, Marco",Director,NA,Colombia,"Al baile del ""Tandem Club""",Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,41,Portada
+Lectura y Arte,62,"Rendón, Francisco de Paula",Creador,NA,Colombia,Pecados y castigos,Nº 3,01/10/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/05/23,43-46,"Capítulo de ""El redentor"", novela inédita"
+Lectura y Arte,63,"Cano, Francisco Antonio",Director,NA,Colombia,NA,Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,"43,46","Ilustraciones relacionadas con el texto. Firmado ""Cano"", pero en letra distinta a la de FAC"
+Lectura y Arte,64,"D'Annunzio, Gabriele",Creador,NA,Italia,La manzana,Nº 3,01/10/03,Sí,"Latorre, Gabriel",Español,Italiano,Poesía,NA,NA,NA,1,47,"Poesía origil Il Pomo: https://it.wikisource.org/wiki/Pagina:D%27Annunzio_-_Isaotta_Guttadauro,_1886.djvu/121"
+Lectura y Arte,65,"Latorre, Gabriel",Creador,NA,Colombia,NA,Nº 3,01/10/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,47,Relacionado con el verso de D'Annunzio
+Lectura y Arte,66,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,47,Ilustración sirve de marco al poema y el título también está inserto como parte del dibujo. Orla de Tobón Mejía
+Lectura y Arte,68,"Lugo, Silvio",Creador,NA,NA,La joven,Nº 3,01/10/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.9,48-49,NA
+Lectura y Arte,69,"Restrepo Restrepo, Antonio María",Creador,"Farina, Abel",Colombia,A dream,Nº 3,01/10/03,No,NA,Inglés,NA,Poesía,NA,NA,NA,0.2,49,"Del libro inédito ""Flautas de pan"""
+Lectura y Arte,70,Anónimo,Creador,NA,NA,Cancion breve,Nº 3,01/10/03,Sí,"Solano Patiño, José",Español,Francés,Poesía,NA,NA,NA,0.2,49,Traducción del francés
+Lectura y Arte,71,"Montoya, Antonio José",Creador,NA,Colombia,Tirria,Nº 3,01/10/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/04/23,50-51,Incluye un verso de Rubén Darío
+Lectura y Arte,72,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.6,50-51,Ilustraciones que acompañan al texto
+Lectura y Arte,73,"Ospina Vásquez, Mariano",Creador,M.O.V.,Colombia,Temas de conversacion. Sobre lo mismo II,Nº 3,01/10/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/02/23,52-54,Sobre el estado del país y la educación
+Lectura y Arte,74,"Tobón Mejía, Marco",Director,MTM,Colombia,Muerte de su santidad León XIII,Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.8,54,"Últimos instantes del papa, tomado de L'Illustration de París"
+Lectura y Arte,75,"Ramírez G., Enrique",Creador,NA,Colombia,Mi cucharada,Nº 3,01/10/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/05/23,55-57,Sobre temas políticos
+Lectura y Arte,76,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 3,01/10/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,55,Estudio de una figura del cuadro Palonegro
+Lectura y Arte,82,"Latorre, Francisco A.",Ninguno de los anteriores,NA,Colombia,Condiciones de esta revista.,Nº 3,01/10/03,No,NA,Español,NA,Publicidad,NA,NA,NA,0.2,59,Precios y contribuciones
+Lectura y Arte,88,"Cano, Francisco Antonio",Director,NA,Colombia,Noviembre.,N°s 4 y 5,01/12/03,,NA,Español,NA,Imagen,NA,NA,NA,1,61,Dibujo y grabado
+Lectura y Arte,89,"Latorre, Francisco A.",Ninguno de los anteriores,NA,Colombia,Condiciones de esta revista.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Publicidad,NA,NA,NA,0.4,62,Precios y contribuciones
+Lectura y Arte,90,"Cano, Francisco Antonio",Director,NA,Colombia,Epifanio Garay,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,4,62-66,Sobre la muerte del artista. Firmado: noviembre de 1903
+Lectura y Arte,91,"Tobón Mejía, Marco",Director,NA,Colombia,D. Epifanio Garay,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,63,NA
+Lectura y Arte,92,"Garay, Epifanio",Creador,NA,Colombia,NA,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,66,"Texto y firma de Epifanio Garay, pintor. Del album de autógrafos del ""Club Brelan"""
+Lectura y Arte,93,"Londoño, Víctor Manuel",Creador,"Londoño, V.M.",Colombia,Paisaje ilusorio,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,67,Para Lectura y Arte
+Lectura y Arte,94,"León Gómez, Adolfo",Creador,NA,Colombia,Diamantes,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,67,NA
+Lectura y Arte,95,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,67,Sirve de marco a los poemas
+Lectura y Arte,96,"Ospina Vásquez, Mariano",Creador,M.O.V.,Colombia,"Temas de conversación. Más sobre lo mismo, III",N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/05/23,"68-69, 72",Sobre la Universidad en Colombia
+Lectura y Arte,97a,"Jaramillo, Emilio",Creador,NA,Colombia,María,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,01/09/23,70-71,"Letra. Zarzuela en tres actos, n° 9 preludio del 3er acto"
+Lectura y Arte,97b,"Vidal, Gonzalo",Creador,NA,Colombia,María,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,01/09/23,70-71,"Música. Zarzuela en tres actos, n° 9 preludio del 3er acto"
+Lectura y Arte,98,"Tobón Mejía, Marco",Director,MTM,Colombia,María,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,70,Título de la partitura a modo de ilustración
+Lectura y Arte,99,"Velásquez Botero, Samuel",Creador,NA,Colombia,Bujeria,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/01/23,72-74,NA
+Lectura y Arte,100,"Tobón Mejía, Marco",Director,NA,Colombia,NA,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,"72,74",Ilustraciones que acompañan al texto
+Lectura y Arte,101,"Sanín Cano, Baldomero",Creador,NA,Colombia,"Nuñez de Arce, poeta de la duda",N°s 4 y 5,01/12/03,No,NA,Español,NA,Reseña,NA,NA,NA,03/03/23,75-78,"Con epígrafe de Flaubert, en francés. Sobre el autor español, con motivo de su fallecimiento."
+Lectura y Arte,102,"Tobón Mejía, Marco",Director,NA,Colombia,Don Gaspar Núñez de Arce.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,75,Retrato del poeta que acompaña el texto anterior
+Lectura y Arte,103,"Vilgio, Leo",Creador,NA,NA,Sueños de artista,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.4,78,Sobre los artistas
+Lectura y Arte,104,"Garay, Epifanio",Creador,NA,Colombia,Recreación,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,79,Grabado
+Lectura y Arte,105,"Grillo, Maximiliano",Creador,NA,Colombia,Romanza nocturna,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,80,Para Lectura y Arte
+Lectura y Arte,106,"D'Annunzio, Gabriele",Creador,NA,Italia,Animal triste,N°s 4 y 5,01/12/03,Sí,"Valencia, Guillermo",Español,Italiano,Poesía,NA,NA,NA,0.2,80,"Encontré esta misma traducción en un periódico de Chile, en 1919 (mismo traductor)"
+Lectura y Arte,107,"Maupassant, Guy de",Creador,NA,Francia,La primera nieve.,N°s 4 y 5,01/12/03,Sí,"Restrepo, Saturnino",Español,Francés,Prosa Ficción,NA,NA,NA,02/05/23,79-81,NA
+Lectura y Arte,109,"Tobón Mejía, Marco",Director,NA,Colombia,Emilio Jaramillo,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,82,Retrato del autor del libreto de María
+Lectura y Arte,110,"Arriola de Bezoita, Jesús",Crítico,NA,España,"Sobre motivos de la ""María""",N°s 4 y 5,01/12/03,No,NA,Español,NA,Reseña,NA,NA,NA,02/04/23,82-85,"Opinión sobre la partitura de ""María"""
+Lectura y Arte,111,"Tobón Mejía, Marco",Director,NA,Colombia,Maestro Gonzalo Vidal,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,83,Retrato del autor de la partitura de María
+Lectura y Arte,113,"Botero Ruiz, Juan José",Creador,NA,Colombia,Inocencias,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,85,NA
+Lectura y Arte,114a,"Álvarez Quintero, Serafín",Creador,NA,España,El cuento de la hechicera. Entremes.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/02/23,86-89,"Tomado de Helios, revista modernista española"
+Lectura y Arte,114b,"Álvarez Quintero, Joaquín",Creador,NA,España,El cuento de la hechicera. Entremes.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,03/02/23,86-89,"Tomado de Helios, revista modernista española"
+Lectura y Arte,116,"Posada, Guillermo",Creador,NA,Colombia,Soneto,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,89,Del libro Quimeras
+Lectura y Arte,117,"Cano, Francisco Antonio",Director,Cano,Colombia,Junta patriótica de Antioquia.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,90-91,Retratos de los integrantes de la Junta Patriótica
+Lectura y Arte,118,"Greiff, Luis de",Creador,NA,Colombia,Federalismo,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,90-91,NA
+Lectura y Arte,119,"Salazar Álvarez, José María",Creador,NA,Colombia,Pasavolantes,N°s 4 y 5,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,"Tobón G., Guillermo y Restrepo R., Pedro A.",NA,1,92,Con la nota en latín: en otro tiempo Alvar Fáñez
+Lectura y Arte,120,"Cano Gutiérrez, Fidel",Director,NA,Colombia,A David.,N°s 4 y 5,01/12/03,No,NA,Español,NA,Poesía,NA,"Cano, F.A.",NA,1,93,NA
+Lectura y Arte,124,"Schopenhauer, Arthur",Creador,NA,Alemania,Carácter de diferentes pueblos.,N°s 4 y 5,01/12/03,Sí,NA,Español,Alemán,Prosa No ficción,NA,NA,NA,0.4,94,Sin dato de traductor
+Lectura y Arte,126,"Tobón Mejía, Marco",Director,Sempronio,Colombia,El gallo de más espuela,N°s 4 y 5,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,96,Caricatura sobre la intervención estadounidense en Panamá. Incluyen un tío Sam malévolo. Incluye un texto en estilo poético.
+Lectura y Arte,127,"Cano, Francisco Antonio",Director,NA,Colombia,Feliz año nuevo,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,97,Portada
+Lectura y Arte,133,"Ospina Vásquez, Mariano",Creador,M.O.V.,Colombia,Temas de conversación. IV. Todavía más sobre lo mismo,Nº 6,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/06/23,99-101,Sobre la universidad antioqueña
+Lectura y Arte,134,"Cano, Francisco Antonio",Director,NA,Colombia,Bellas artes. Efe Gómez,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,99,Pintura
+Lectura y Arte,135,"Echeverría, Eduardo",Creador,NA,Colombia,Paisaje,Nº 6,01/12/03,No,NA,Español,NA,Poesía,NA,Madre (del autor),NA,1,102,"A mi madre. Firmado en Casanare, 1901"
+Lectura y Arte,136,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,102,"Fondo del poema, ocupa toda la página, paisaje"
+Lectura y Arte,137,"Bourget, Paul",Creador,NA,Francia,Los ramilletes de los pobres,Nº 6,01/12/03,Sí,"Cano, Fidel",Español,Francés,Poesía,NA,NA,NA,0.4,103,Firmado 1895
+Lectura y Arte,138,"Cano, Francisco Antonio",Director,NA,Colombia,Dix centimes la botte,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.6,103,"Dibujo y grabado, sirve de marco al texto pero abarca más espacio"
+Lectura y Arte,139,"Gómez Escobar, Francisco",Creador,Efe Gómez,Colombia,Palique cientifico,Nº 6,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/06/23,104-108,Sobre temas de geología
+Lectura y Arte,141,"Altamira, Rafael",Creador,NA,España,Leonardo de Vinci y el ideal de la vida,Nº 6,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/06/23,108-110,NA
+Lectura y Arte,144,"Restrepo Restrepo, Carlos Eugenio",Creador,NA,Colombia,Un héroe oscuro,Nº 6,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,2,111-112,NA
+Lectura y Arte,145,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,0.6,111,Sirve de marco al texto
+Lectura y Arte,146,"Ramírez G., Enrique",Creador,NA,Colombia,Revista politica,Nº 6,01/12/03,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/05/23,112-116,"Sobre Panamá. Incluye nota final al texto, aclaratoria."
+Lectura y Arte,147,"Tennyson, Alfred",Creador,NA,Inglaterra,"Llanto, ocioso llanto….",Nº 6,01/12/03,Sí,"Vásquez Ospina, Mariano",Español,Inglés,Poesía,NA,NA,NA,0.3,116,Con título y epígrafe en inglés
+Lectura y Arte,148,"Pérez Zúñiga, Juan",Creador,NA,España,Soñar con la gloria,Nº 6,01/12/03,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,1,116-117,Con nombres franceses
+Lectura y Arte,151,"Tobón Mejía, Marco",Director,Sempronio,Colombia,La pelea es peleando,Nº 6,01/12/03,No,NA,Español,NA,Imagen,NA,NA,NA,1,118,Caricatura representando Antioquia y Cauca
+Lectura y Arte,152,"Olarte, Enrique",Ilustrador,NA,Colombia,NA,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,1,119,Primer premio del concurso de portadas
+Lectura y Arte,155,"Velilla Yepes, Samuel",Creador,NA,Colombia,Discurso,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/01/23,121-122,Pronunciado en el funeral de Manuel Uribe Ángel. Con epígrafe de Manzonni en italiano
+Lectura y Arte,156,"Tobón Mejía, Marco",Director,NA,Colombia,Dr. Manuel Uribe Ángel,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,121,Retrato que acompaña el texto
+Lectura y Arte,157,"Ospina Vásquez, Tulio",Creador,NA,Colombia,En Tarascon,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/04/23,122-124,Sobre un viaje a París
+Lectura y Arte,158,"Tobón Mejía, Marco",Director,NA,Colombia,Dr. Jose Tomas Henao,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,124,Retrato del gobernador de Antioquia
+Lectura y Arte,159,"Pérez Triana, Santiago",Creador,NA,Colombia,Vientos de llano,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Poesía,NA,NA,NA,1,125,Firmado en Madrid
+Lectura y Arte,160,"Cano, Francisco Antonio",Director,Cano,Colombia,NA,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,1,125,"Fondo del poema, ocupa toda la página, planta"
+Lectura y Arte,161,"Soto Borda, Clímaco",Creador,NA,Colombia,¿Por qué? *,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa Ficción,NA,"Restrepo, Antonio José",NA,0.7,126,"Para Lectura y Arte. Con epígrafe en italiano de Leopardi, y otro en español de Chateaubriand. Nota: del concurso ""¿Por qué lloraba?"", en La Gruta Simbólica"
+Lectura y Arte,162,"Jaramillo, Bernardo",Creador,NA,Colombia,Arañas,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,126,NA
+Lectura y Arte,164,"Cano, Francisco Antonio",Director,NA,Colombia,Un artista,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,127-128,Sobre un retrato prometido desde el primer número
+Lectura y Arte,165,"Cano, Francisco Antonio",Director,Cano,Colombia,D. Andres de Santamaria,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,128,Retrato que acompaña al texto
+Lectura y Arte,166,"Restrepo, Saturnino",Creador,NA,Colombia,A flor de tierra,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,11/02/23,"120-135, 137-141",NA
+Lectura y Arte,167,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.8,"129, 133, 140",Ilustraciones sobre el texto
+Lectura y Arte,168,"Santa María, Andrés de",Ilustrador,NA,Colombia,Los dragones de la Guardia inglesa,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,1,136,Con título de sección: Bellas artes
+Lectura y Arte,169,"Silvestre, Armand",Creador,NA,Francia,Cancion de otoño,Nºs 7 y 8,01/11/04,Sí,"Cano, Antonio J.",Español,Francés,Poesía,NA,"Vidal, Enrique",NA,0.5,142,NA
+Lectura y Arte,170,"Vidal, Enrique",Ilustrador,NA,Colombia,NA,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,142,"Acompaña el poema, sirve de marco"
+Lectura y Arte,171,"Cano, Francisco Antonio",Director,NA,Colombia,Personal,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.4,143,Sobre la muerte dde Melitón Rodríguez
+Lectura y Arte,175,"Tobón Mejía, Marco",Director,NA,Colombia,D. Lino R. Ospina,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,143,Retrato
+Lectura y Arte,176,"Olano, Ricardo",Creador,NA,Colombia,Recuerdos del mar,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa Ficción,NA,"Castro, Alfonso (novia de)",NA,0.7,144,Para la novia de Alfonso Castro
+Lectura y Arte,177,"Soto Borda, Clímaco",Creador,NA,Colombia,Nocturno,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,144,NA
+Lectura y Arte,178,"Robledo, Eusebio",Creador,NA,Colombia,Ruth,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Poesía,NA,"Soto Borda, Clímaco",NA,03/02/23,145-148,Versos son intercalados con fragmentos del libro de Rut (Biblia)
+Lectura y Arte,179,"Cano, Francisco Antonio",Director,NA,Colombia,Ruth,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,145,Imagen que adorna el título
+Lectura y Arte,180,"Martínez Sierra, Gregorio",Creador,NA,España,Golondrina de sol,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,07/05/23,148-155,
+Lectura y Arte,181,"Tobón Mejía, Marco",Director,NA,Colombia,Exmo. Gral. Rafael Reyes,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,150,Retrato del presidente de la República
+Lectura y Arte,182,"Tobón Mejía, Marco",Director,NA,Colombia,D. Benito Uribe,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,151,Retrato del gobernador del departamento
+Lectura y Arte,183,"Rodríguez, Melitón",Ilustrador,NA,Colombia,Lectura y Arte,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.25,156,Segundo premio concurso de portadas
+Lectura y Arte,184,"Cano Isaza, F.",Ilustrador,NA,Colombia,Melancolia,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.25,156,Accesit premio concurso de portadas
+Lectura y Arte,185,"Vidal, Enrique",Ilustrador,NA,Colombia,El camino del abismo,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.25,156,Grabado. Concurso de portadas
+Lectura y Arte,186,"Arango, Jorge Luis",Ilustrador,NA,Colombia,NA,Nºs 7 y 8,01/11/04,No,NA,Español,NA,Imagen,NA,NA,NA,0.25,156,Litografía. Concurso de portadas
+Lectura y Arte,187,"Cano, Francisco Antonio",Director,NA,Colombia,NA,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,1,157,Portada
+Lectura y Arte,189a,"Olano, Ricardo",Creador,NA,Colombia,Acuerdos sobre juegos florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Publicidad,NA,NA,NA,0.3,158,Disposiciones generales de los juegos florales. Firma el presidente.
+Lectura y Arte,189b,"Tejada Córdoba, Benjamín",Creador,NA,Colombia,Acuerdos sobre juegos florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Publicidad,NA,NA,NA,0.3,158,Disposiciones generales de los juegos florales. Firma el secretario.
+Lectura y Arte,196,"Greiff, León de",Creador,NA,Colombia,Juegos Florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/08/23,159-161,Discurso
+Lectura y Arte,198,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,159,Marco ilustrado del texto
+Lectura y Arte,199,"Tobón Mejía, Marco",Director,MTM,Colombia,Sr. Juan de D. Vasquez,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,161,Retrato. Primer premio de prosa
+Lectura y Arte,200a,"Latorre, Gabriel",Creador,NA,Colombia,Juegos Florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/07/23,161-163,Informe del jurado calificador
+Lectura y Arte,200b,"Molina, Carlos A.",Creador,NA,Colombia,Juegos Florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/07/23,161-163,Informe del jurado calificador
+Lectura y Arte,200c,"Cano, Francisco Antonio",Director,NA,Colombia,Juegos Florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/07/23,161-163,Informe del jurado calificador
+Lectura y Arte,200d,"Greiff, Luis de",Creador,NA,Colombia,Juegos Florales,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/07/23,161-163,Informe del jurado calificador
+Lectura y Arte,201,"Tobón Mejía, Marco",Director,NA,Colombia,Dr. Eusebio Robledo,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,164,Primer premio de poesía
+Lectura y Arte,202,"Robledo, Eusebio",Creador,NA,Colombia,El palacio del arte,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Poesía,NA,NA,NA,01/09/23,164-165,Epígrafes: Ovidio (en latín) y Bishop Hall (en inglés)
+Lectura y Arte,203,"Vásquez, Juan de Dios",Creador,NA,Colombia,Arroyo,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/07/23,166-168,NA
+Lectura y Arte,207,"Gaviria Isaza, Henrique",Creador,NA,Colombia,Post mortem,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,Madre (del autor),NA,01/03/23,168-169,A mi madre.
+Lectura y Arte,208,"Cano, Francisco Antonio",Director,NA,Colombia,Sr. Antonio J. Cano,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,170,"Retrato, segundo premio de poesía"
+Lectura y Arte,209,"Cano, Antonio José",Director,NA,Colombia,Crepusculos,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Poesía,NA,NA,NA,0.8,170,NA
+Lectura y Arte,210,"Montoya Pérez, Rafael",Creador,NA,Colombia,Martita,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,4,171-175,NA
+Lectura y Arte,211,"Cano, Francisco Antonio",Director,NA,Colombia,Sr. Rafael Montoya Perez,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,171,Retrato. Segundo premio de prosa
+Lectura y Arte,213,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,174,Abarca la mitad de la página y sirve como marco al retrato
+Lectura y Arte,214,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,1,NA,No se cuenta en la paginación.
+Lectura y Arte,215,"Rueda, Salvador",Creador,NA,España,Reverso de la medalla. El gato,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/04/23,175-177,NA
+Lectura y Arte,216,"Restrepo, Saturnino",Creador,NA,Colombia,A Jorge Isaacs,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,3,177-181,Epígrafe de Leconte de L'Isle. Con fragmentos de otras obras en francés e inglés
+Lectura y Arte,217,"Tobón Mejía, Marco",Director,NA,Colombia,Sr. H. Gaviria I.,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,178,Retrato. Autor de post mortem
+Lectura y Arte,218,"Cano, Francisco Antonio",Director,NA,Colombia,Natura muerta,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,179,Propiedad del Sr. Cipriano Rodríguez. Exhibición del centro artistico - 1904
+Lectura y Arte,219,"Martínez Sierra, Gregorio",Creador,NA,España,Los niños ciegos,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,06/01/23,181-188,NA
+Lectura y Arte,220,"Cano, Francisco Antonio",Director,NA,Colombia,San Rafael y Tobias,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,183,Propiedad de Rafael Mesa
+Lectura y Arte,221,"Tobón Mejía, Marco",Director,NA,Colombia,Palonegro,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.5,186,Propiedad del Sr. Roberto Hernandez. Exhibición del centro artistico - 1904
+Lectura y Arte,222,"Cano, Francisco Antonio",Director,NA,Colombia,Rosas,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,187,Propiedad del Sr. Emilio Arango
+Lectura y Arte,223,"Blasco Ibáñez, Vicente",Creador,NA,España,El ogro,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/05/23,188-191,NA
+Lectura y Arte,227,"Tobón Mejía, Marco",Director,Sempronio,Colombia,Los Violetas,Nºs 9 y 10,01/04/05,No,NA,Español,NA,Imagen,NA,NA,NA,1,192,Caricatura
+Lectura y Arte,228,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,1,193,Portada
+Lectura y Arte,233a,"Arango, Juan B.",Creador,NA,NA,Exposición,Nº 11,01/07/05,No,NA,Español,NA,Publicidad,NA,NA,NA,0.2,194,Carta recibida de la Comisión del Segundo Certamen Industrial y Artístico
+Lectura y Arte,233b,"Molina, Carlos A.",Creador,NA,NA,Exposición,Nº 11,01/07/05,No,NA,Español,NA,Publicidad,NA,NA,NA,0.2,194,Carta recibida de la Comisión del Segundo Certamen Industrial y Artístico
+Lectura y Arte,235,"Zuleta Gaviria, Eduardo",Creador,NA,Colombia,El Dr. Montoya y Florez,Nº 11,01/07/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,195-196,NA
+Lectura y Arte,236,"Cano, Francisco Antonio",Director,NA,Colombia,Dr. J.B. Montoya y Florez,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,195,Ilustración
+Lectura y Arte,237,"Montoya Pérez, Rafael",Creador,NA,Colombia,Por Cristo,Nº 11,01/07/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,05/03/23,196-201,"Con las siglas al inicio: H, m, M."
+Lectura y Arte,239,"Tobón Mejía, Marco",Director,MTM,Colombia,Friso. Estudio de J. Ignacio Cano,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,200,Ilustración
+Lectura y Arte,240,"Restrepo Restrepo, Carlos Eugenio",Creador,NA,Colombia,Risa tragica,Nº 11,01/07/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/03/23,202-203,Del album ilustrado de Rafael Mesa
+Lectura y Arte,241,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.6,202,Acompaña al texto
+Lectura y Arte,242,"Tobón Mejía, Marco",Director,NA,Colombia,NA,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,203,Acompaña al texto
+Lectura y Arte,243,"Velásquez García, José",Creador,"Vives Guerra, Julio",Colombia,"Fragmento del poema ""Juan el Evangelista""",Nº 11,01/07/05,No,NA,Español,NA,Poesía,NA,"Hoyos, María Francisca de",NA,0.6,204,Epígrafe de San Juan
+Lectura y Arte,244,"Montoya, Antonio José",Creador,NA,Colombia,"Oro limpio, salve !",Nº 11,01/07/05,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/07/23,204-206,Parábola
+Lectura y Arte,246a,"Cano, Antonio José",Director,NA,Colombia,J. Ignacio Cano,Nº 11,01/07/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.3,206,Mensaje por fallecimiento del autor y menciona publicación de sus obras
+Lectura y Arte,246b,"Vidal, Enrique",Director,NA,Colombia,J. Ignacio Cano,Nº 11,01/07/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.3,206,Mensaje por fallecimiento del autor y menciona publicación de sus obras
+Lectura y Arte,246c,"Tobón Mejía, Marco",Director,NA,Colombia,J. Ignacio Cano,Nº 11,01/07/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.3,206,Mensaje por fallecimiento del autor y menciona publicación de sus obras
+Lectura y Arte,247,"Restrepo, Saturnino",Creador,NA,Colombia,Discurso,Nº 11,01/07/05,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,206-207,Pronunciado en la inhumación del cadáver de J. Ignacio Cano
+Lectura y Arte,249,"Orrego Barros, Antonio",Creador,NA,Chile,A Isaias Gamboa,Nº 11,01/07/05,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,208,Para Lectura y Arte. Epígrafe de Menandro (autor griego). Firmado en Chile
+Lectura y Arte,250,"Chaumeix, André",Creador,NA,Francia,La estetica contemporanea (I),Nº 11,01/07/05,Sí,NA,Español,Francés,Prosa No ficción,NA,NA,NA,03/02/23,208-211,Traducción de Lectura y Arte
+Lectura y Arte,251,"Tobón Mejía, Marco",Director,NA,Colombia,Mascarón de la fachada del edificio del Banco de Colombia por J. Ignacio Cano,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,0.3,210,Corta el texto
+Lectura y Arte,252,"Tobón Mejía, Marco",Director,Sempronio,Colombia,De Centro Artistico. Vives Guerra,Nº 11,01/07/05,No,NA,Español,NA,Imagen,NA,NA,NA,1,212,Dibujo
+Lectura y Arte,253,"Cano, Francisco Antonio",Director,FAC,Colombia,NA,Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,1,213,Portada
+Lectura y Arte,259,"Carvajal, Manuel Antonio",Creador,NA,Colombia,Salutacion al invierno,Nº 12,01/02/06,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.5,214,NA
+Lectura y Arte,260,"Tobón Mejía, Marco",Director,MTM,Colombia,Libélulas,Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,0.2,215,Dibujo de Tobón Mejía
+Lectura y Arte,263,"Solano Patiño, José",Creador,NA,Colombia,Nomo Orthio,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,"Cano, Fidel",NA,0.5,216,Leyenda
+Lectura y Arte,264,"Betancourt Villegas, Félix",Creador,NA,Colombia,Fragmento de un estudio,Nº 12,01/02/06,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,04/07/23,216-221,"Sobre ""El Quijote"""
+Lectura y Arte,266,"Villegas, Aquilino",Creador,NA,Colombia,En la blancura,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,221,NA
+Lectura y Arte,267,"Núñez, Carlos",Creador,NA,NA,Tu mano,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,221,NA
+Lectura y Arte,268,"Ospina Vásquez, Mariano",Creador,Moi,Colombia,Reza,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,222,NA
+Lectura y Arte,269,"Ospina Vásquez, Mariano",Creador,Moi,Colombia,Di,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,222,NA
+Lectura y Arte,270,"Tobón Mejía, Marco",Director,MTM,Colombia,NA,Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,0.6,222,Enmarca los poemas
+Lectura y Arte,272,"Montoya Pérez, Rafael",Creador,NA,Colombia,Dura ley,Nº 12,01/02/06,No,NA,Español,NA,Prosa Ficción,NA,"Jaramillo Vélez, Enrique",NA,02/05/23,223-225,NA
+Lectura y Arte,273,"Tobón Mejía, Marco",Director,MTM,Colombia,Dibujo de Tobón Mejía,Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,0.1,226,NA
+Lectura y Arte,274,"Gómez Jaime, Alfredo",Creador,NA,Colombia,En un album,Nº 12,01/02/06,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,226,Del album de autógrafos del Tandem Club
+Lectura y Arte,275,"Twain, Marc ",Creador,"Clemens, Samuel Langhorne ",Estados Unidos,El diario de Adan,Nº 12,01/02/06,Sí,NA,Español,Inglés,Prosa Ficción,NA,NA,NA,04/03/23,226-230,NA
+Lectura y Arte,276,"Tobón Mejía, Marco",Director,NA,Colombia,Mayo (yeso de Tobón Mejía.),Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,0.4,227,Sin firma del que reproduce la obra
+Lectura y Arte,278,"Tobón Mejía, Marco",Director,Sempronio,Colombia,De la costa. Eduardo Ortega,Nº 12,01/02/06,No,NA,Español,NA,Imagen,NA,NA,NA,1,229,Caricatura
