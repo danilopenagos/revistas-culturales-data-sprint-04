@@ -886,4 +886,4 @@ visNetwork(nodos_vis_modernismo, aristas_vis_modernismo) |>
 
 ## Agradecimientos
 
-Está propuesta de análisis y su código están basados en el [Data Srpint 2](https://github.com/joergleh/CulturalTransfer-UdeA-Tue-DataSprint2) que propuso el Dr. Jörg Lehmann en el marco del proyecto *Digitalization and Analysis of Cultural Transfers in Colombian Literary Magazines (182-1950)*.
+Esta propuesta de análisis y su código están basados en el [Data Srpint 2](https://github.com/joergleh/CulturalTransfer-UdeA-Tue-DataSprint2) que propuso el Dr. Jörg Lehmann en el marco del proyecto *Digitalization and Analysis of Cultural Transfers in Colombian Literary Magazines (182-1950)*.
