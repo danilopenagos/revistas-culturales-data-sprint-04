@@ -1,5 +1,5 @@
 NombreR,NumContrib,Colaborador,Roles,Seudonimo,PaisOrigen,Titulo,NumFasciculo,Fecha,Traduccion,Traductor,Lengua,LenguaOriginal,Tipo,TipoIndice,Dedicatoria,ObrasResenadas,CantidadPaginas,Paginacion,Comentarios
-La Gruta,1,"Sanín Cano, Baldomero",Creador,NA,Colombia,Amado nervo,1,Julio 13 de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/01/23,3--4,Transferencia:comentario crítico sobre autor extranjero
+La Gruta,1,"Sanín Cano, Baldomero",Creador,NA,Colombia,Amado Nervo,1,Julio 13 de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/01/23,3--4,Transferencia:comentario crítico sobre autor extranjero
 La Gruta,2,"Grillo, Maximiliano",Creador,Max Grillo,Colombia,Cosas que mueren,1,Julio 13 de 1903,No,NA,Español,NA,Prosa Ficción,Cuentos breves,NA,NA,01/03/23,4--5,NA
 La Gruta,3,"Acosta, Javier",Creador,NA,Colombia,De la decadencia y el simbolismo,1,Julio 13 de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,6,5--11,Transferencia: comentario crítico sobre el simbolismo
 La Gruta,4,"Villafañe, Carlos",Creador,NA,Colombia,Ingenuidades tristes,1,Julio 13 de 1903,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,0.7,11,NA
@@ -73,7 +73,7 @@ La Gruta,71,"Vargas Tamayo, Roberto",Creador,NA,Colombia,?...,6,29 de agosto de 
 La Gruta,72,"López, Ismael",Creador,NA,Colombia,Edad de oro,6,29 de agosto de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,93,NA
 La Gruta,73,"Calderón, Luis Eduardo",Creador,NA,Colombia,Para entonces,6,29 de agosto de 1903,No,NA,Español,NA,Poesía,NA,"Escobar Roa, Rafael",NA,1,94,NA
 La Gruta,74,Anónimo,Creador,NA,NA,NA,6,29 de agosto de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,95-96,Dentro de la publicidad continua la información sobre el decreto 84 de 1903 sobre prensa
-La Gruta,75,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,7,10 de septiembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,97-98,Dentro de la publicidad hay información sobre cómo larevista hace los procesos de publicidad
+La Gruta,75,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,7,10 de septiembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,97-98,Dentro de la publicidad hay información sobre cómo la revista hace los procesos de publicidad
 La Gruta,76,"Bohemia, Juan de",Creador,NA,NA,Umbra,7,10 de septiembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,99,NA
 La Gruta,77,"Gaitán O., Gustavo",Creador,NA,NA,Letheo,7,10 de septiembre de 1903,No,NA,Español,NA,Poesía,NA,"Acosta, Javier",NA,0.5,99,NA
 La Gruta,78,"Villegas, Marco A. ",Creador,NA,NA,Condolencia,7,10 de septiembre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.3,100,NA
@@ -94,7 +94,7 @@ La Gruta,92,"Rémy, François",Creador,NA,NA,Versos a la luna,8,26 de septiembre
 La Gruta,93,"Duque Uribe, Rafael",Creador,R. D'Oribe,NA,La condesa original,8,26 de septiembre de 1903,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/04/23,117-118,NA
 La Gruta,94,"Espinosa Guzmán, Rafael",Director,NA,Colombia,La semana,8,26 de septiembre de 1903,No,NA,Español,NA,Prosa No ficción,La semana,NA,NA,04/02/23,118-122,NA
 La Gruta,95,Anónimo,Creador,NA,NA,NA,8,26 de septiembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,96,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,9,3 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo larevista hace los procesos de publicidad
+La Gruta,96,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,9,3 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo la revista hace los procesos de publicidad
 La Gruta,97,"Villafañe, Carlos",Creador,NA,Colombia,Yo pecador,9,3 de octubre de 1903,No,NA,Español,NA,Poesía,NA,"Valencia, Guillermo",NA,0.5,123,NA
 La Gruta,98,"Herrán, Pablo Emilio",Creador,NA,NA,Invitación,9,3 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,123,NA
 La Gruta,99,"Güell, Joaquín M.",Creador,NA,Colombia,Fuerza mayor...,9,3 de octubre de 1903,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/05/23,124-125,NA
@@ -105,7 +105,7 @@ La Gruta,103,"Rivas Frade, Federico",Director,NA,Colombia,Rima,9,3 de octubre de
 La Gruta,104,"Valencia, Francisco",Creador,NA,Colombia,Tu boca,9,3 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.4,134,NA
 La Gruta,105,Anónimo,Creador,NA,NA,Correcciones,9,3 de octubre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.1,134,NA
 La Gruta,106,Anónimo,Creador,NA,NA,NA,9,3 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,107,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,10,10 octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo larevista hace los procesos de publicidad
+La Gruta,107,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,10,10 octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo la revista hace los procesos de publicidad
 La Gruta,108,"Güell, Joaquín M.",Creador,NA,Colombia,Eros,10,10 octubre de 1903,No,NA,Español,NA,Poesía,NA,"Acosta, Javier",NA,0.5,135,NA
 La Gruta,109,"López, Ismael",Creador,NA,Colombia,Flores de samos,10,10 octubre de 1903,No,NA,Español,NA,Poesía,NA,"Cano, Sanín",NA,0.4,135,NA
 La Gruta,110,"López, Ismael",Creador,NA,Colombia,I. Edad de oro,10,10 octubre de 1903,No,NA,Español,NA,Poesía,NA,"Cano, Sanín",NA,0.4,135-136,NA
@@ -119,7 +119,7 @@ La Gruta,117,"Espinosa Guzmán, Rafael",Director,REG,Colombia,La semana,10,10 oc
 La Gruta,118,"Echeverría, Eduardo",Creador,NA,Colombia,La oración,10,10 octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,146,NA
 La Gruta,119,"Valencia, Francisco",Creador,F.Valencia,Colombia,Carcelero,10,10 octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,146,NA
 La Gruta,120,Anónimo,Creador,NA,NA,NA,10,10 octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,121,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,11,17 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo larevista hace los procesos de publicidad
+La Gruta,121,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,11,17 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo la revista hace los procesos de publicidad
 La Gruta,122,"Flórez, Julio",Creador,NA,Colombia,Gota de ajenjo,11,17 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,147,NA
 La Gruta,123,"Villafañe, Carlos",Creador,NA,Colombia,Arde el enigma de tus ojos...,11,17 de octubre de 1903,No,NA,Español,NA,Poesía,NA,M.E.T.,NA,0.5,147,NA
 La Gruta,124,"Grillo, Maximiliano",Creador,Max Grillo,Colombia,Letras humanas,11,17 de octubre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,02/02/23,148-150,Transferencia locales: comentario sobre el estado de la literatura nacional
@@ -135,7 +135,7 @@ La Gruta,133,"Quijano, Arturo",Creador,"Quijano, Arturo A.",Colombia,Romance IV.
 La Gruta,134,"Gaitán O., Gustavo",Creador,NA,NA,Arturo A. Quijano,11,17 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,157,NA
 La Gruta,135,"Saavedra Galindo, José Manuel",Creador,J.M. Saavedra Galindo,Colombia,Aves negras,11,17 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,1,158,NA
 La Gruta,136,Anónimo,Creador,NA,NA,NA,11,17 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,137,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,12,24 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo larevista hace los procesos de publicidad
+La Gruta,137,Anónimo,Creador,NA,NA,La agencia de Fedérico Rivas Frade,12,24 de octubre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Dentro de la publicidad hay información sobre cómo la revista hace los procesos de publicidad
 La Gruta,138,"Londoño, Víctor Manuel",Creador,Víctor M. Londoño,Colombia,Sortilegio,12,24 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,1,159,NA
 La Gruta,139,"Valencia, Francisco",Creador,NA,Colombia,Rosas,12,24 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,160,NA
 La Gruta,140,"Valencia, Francisco",Creador,NA,Colombia,Violetas,12,24 de octubre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,160,NA
@@ -191,7 +191,7 @@ La Gruta,189,"Espinosa Guzmán, Rafael",Director,NA,Colombia,Bueno...,16,21 de n
 La Gruta,190,"Morice, Charles",Creador,NA,Francia,Paul Gauguin,16,21 de noviembre de 1903,Sí,"Grillo, Maximiliano",Español,Francés,Prosa No ficción,NA,NA,NA,01/03/23,212-213,Transferencia: traducción. Tomado del Le Matin
 La Gruta,191,"Espinosa Guzmán, Rafael",Director,REG,Colombia,La semana,16,21 de noviembre de 1903,No,NA,Español,NA,Prosa No ficción,La semana,NA,NA,5,214-218,NA
 La Gruta,192,Anónimo,Creador,NA,NA,NA,16,21 de noviembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,193,Anónimo,Creador,NA,NA,NA,17,28 de noviembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Se avisa a los suscriptores que se les enviará eñ recibo de la primera serie del periódico
+La Gruta,193,Anónimo,Creador,NA,NA,NA,17,28 de noviembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,Se avisa a los suscriptores que se les enviará el recibo de la primera serie del periódico
 La Gruta,194,"López, Ismael",Creador,NA,Colombia,Elisabeth I,17,28 de noviembre de 1903,No,NA,Español,NA,Poesía,NA,"Valencia, Guillermo",NA,0.5,219,NA
 La Gruta,195,"López, Ismael",Creador,NA,Colombia,Zenobia. II,17,28 de noviembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,219,NA
 La Gruta,196,"Valencia, Francisco",Creador,NA,Colombia,Semblanza,17,28 de noviembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,220,NA
@@ -200,12 +200,12 @@ La Gruta,198,"Castello, Carlos",Creador,NA,Colombia,Las tres Cabezas (fragmento)
 La Gruta,199,"Acosta, Javier",Creador,NA,Colombia,La escuela Nueva y José A. Silva,17,28 de noviembre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,05/03/23,221-227,Transferencias: comentarios sobre la literatura colombiana
 La Gruta,200,"Espinosa Guzmán, Rafael",Director,REG,Colombia,La semana,17,28 de noviembre de 1903,No,NA,Español,NA,Prosa No ficción,La semana,NA,NA,03/09/23,227-230,NA
 La Gruta,201,Anónimo,Creador,NA,NA,NA,17,28 de noviembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,202,Anónimo,Creador,NA,NA,NA,18,5 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende"
+La Gruta,202,Anónimo,Creador,NA,NA,NA,18,5 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende"
 La Gruta,203,"Sánchez, Alberto",Creador,NA,Colombia,Rondó. L'anima  ride li amor suoi lontani,18,5 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,1,231,NA
 La Gruta,204,"Espinosa Guzmán, Rafael",Director,REG,Colombia,La semana,18,5 de diciembre de 1903,No,NA,Español,NA,Prosa No ficción,La semana,NA,NA,10/05/23,232-242,Transferencia: dentro de este texto hay comentarios sobre literatura
 La Gruta,205,"Bayona Posada, Jorge",Creador,NA,Colombia,Rondel,18,5 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,242,NA
 La Gruta,206,Anónimo,Creador,NA,NA,NA,18,5 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,207,Anónimo,Creador,NA,NA,NA,19,14 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende"
+La Gruta,207,Anónimo,Creador,NA,NA,NA,19,14 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende"
 La Gruta,208,"Rivas Frade, Federico",Director,F. Rivas Frade,Colombia,¡Oh patria!,19,14 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,243,NA
 La Gruta,209,"Chaves, J.R.",Creador,J.R. Chavez,NA,Realidades,19,14 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,243,NA
 La Gruta,210,"Espinosa Guzmán, Rafael",Director,REG,Colombia,La semana,19,14 de diciembre de 1903,No,NA,Español,NA,Prosa No ficción,La semana,NA,NA,04/08/23,244-248,NA
@@ -215,7 +215,7 @@ La Gruta,213,"Parma, Juan de ",Creador,NA,NA,De sociedad,19,14 de diciembre de 1
 La Gruta,214,"Güell, Joaquín M.",Creador,NA,Colombia,Estirpe,19,14 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.3,254,NA
 La Gruta,215,"Güell, Joaquín M.",Creador,NA,Colombia,Envio,19,14 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.2,254,NA
 La Gruta,216,Anónimo,Creador,NA,NA,NA,19,14 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,217,Anónimo,Creador,NA,NA,NA,20,21 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende"
+La Gruta,217,Anónimo,Creador,NA,NA,NA,20,21 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende"
 La Gruta,218,Anónimo,Ilustrador,NA,NA,NA,20,21 de diciembre de 1903,No,NA,NA,NA,Imagen,NA,NA,NA,0.5,255,NA
 La Gruta,219,"Acosta, Javier",Creador,NA,Colombia,Pedro Ignacio Escobar,20,21 de diciembre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/02/23,255-256,NA
 La Gruta,220,"Escobar, Pedro Ignacio",Creador,Gil Rosales,Colombia,La prenda (Inédito),20,21 de diciembre de 1903,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/06/23,256-258,NA
@@ -229,7 +229,7 @@ La Gruta,227,"Escobar, Pedro Ignacio",Creador,Gil Rosales,Colombia,Hora triste,2
 La Gruta,228,"Espinosa Guzmán, Rafael",Director,REG,Colombia,Celos de muerto,20,21 de diciembre de 1903,No,NA,Español,NA,Prosa Ficción,Cuentos cortos,"Echeverría, Eduardo",NA,0.9,265,NA
 La Gruta,229,"Espinosa Guzmán, Rafael",Director,REG,Colombia,Alejandro Vega,20,21 de diciembre de 1903,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,1,266,NA
 La Gruta,230,Anónimo,Creador,NA,NA,NA,20,21 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,231,Anónimo,Creador,NA,NA,NA,21,25 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende"
+La Gruta,231,Anónimo,Creador,NA,NA,NA,21,25 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende"
 La Gruta,232,"Londoño, Víctor Manuel",Creador,V.M. Londoño,Colombia,Navidad,21,25 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,267,NA
 La Gruta,233,"Posada, Guillermo",Creador,NA,Colombia,Noël,21,25 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,267,NA
 La Gruta,234,"Sánchez, Alberto",Creador,NA,Colombia,Los ojos del niño (cuento de navidad),21,25 de diciembre de 1903,No,NA,Español,NA,Prosa Ficción,Cuento,NA,NA,02/02/23,268-270,NA
@@ -239,7 +239,7 @@ La Gruta,237,"Munroo, Alick",Creador,NA,NA,Un chelin por una vida (historia de n
 La Gruta,238,"Guerrero, Rafael",Creador,NA,España,La gloria,21,25 de diciembre de 1903,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,02/05/23,275-277,Transferencia: texto de autor extranjero
 La Gruta,239,"Montes del Valle, Agripina",Creador,NA,Colombia,Resurrección,21,25 de diciembre de 1903,No,NA,Español,NA,Poesía,NA,"Gómez, Ezequiel",NA,1,278,NA
 La Gruta,240,Anónimo,Creador,NA,NA,NA,21,25 de diciembre de 1903,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,241,Anónimo,Creador,NA,NA,NA,22,16 de enero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende"
+La Gruta,241,Anónimo,Creador,NA,NA,NA,22,16 de enero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende"
 La Gruta,242,"López, Ismael",Creador,NA,Colombia,Sonata,22,16 de enero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,279,NA
 La Gruta,243,"Lleras A., Alfredo",Creador,NA,NA,Antítesis,22,16 de enero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,280,NA
 La Gruta,244,"Heredia Márquez, Francisco de",Creador,NA,Colombia,Emociones de la guerra,22,16 de enero de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,03/08/23,281-284,Transferencia local: comentario crítico sobre libro de autor nacional. Max Grillo Emociones de la guerra
@@ -247,7 +247,7 @@ La Gruta,245,"Rémy, François",Creador,NA,NA,Celajes,22,16 de enero de 1904,Sí
 La Gruta,246,"Rozo Martínez, Darío",Creador,NA,Colombia,Un tesoro,22,16 de enero de 1904,No,NA,Español,NA,Prosa Ficción,NA,La Gruta,NA,04/07/23,285-290,NA
 La Gruta,247,"Valencia, Francisco",Creador,NA,Colombia,Movimiento,22,16 de enero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,290,NA
 La Gruta,248,Anónimo,Creador,NA,NA,NA,22,16 de enero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia: promoción de revista extranjera ""La Quincena"" Revista de Ciencias y Artes. Bellísimo periódico ilustrado, de San Salvador, Centroamérica. Se reciben suscripciones en La Gruta"""
-La Gruta,249,Anónimo,Creador,NA,NA,NA,23,8 de febrero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende. En este número también se promociona Emociones de la Guerra de Max Grullo. Librería de Julio S Grillo. Librería Colombiana"
+La Gruta,249,Anónimo,Creador,NA,NA,NA,23,8 de febrero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende. En este número también se promociona Emociones de la Guerra de Max Grillo. Librería de Julio S. Grillo. Librería Colombiana"
 La Gruta,250,"Villafañe, Carlos",Creador,NA,Colombia,Para ti sola,23,8 de febrero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,291,NA
 La Gruta,251,"Paillié, Francisco A.",Creador,NA,Colombia,Némesis,23,8 de febrero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,292,NA
 La Gruta,252,"Valencia, Francisco",Creador,NA,Colombia,Por la pampa,23,8 de febrero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,0.5,292,NA
@@ -256,7 +256,7 @@ La Gruta,254,"Castello, Carlos",Creador,NA,Colombia,Mancha Feliz,23,8 de febrero
 La Gruta,255,"Echeverría, Marcelino",Creador,NA,NA,El primer novio,23,8 de febrero de 1904,No,NA,Español,NA,Prosa Ficción,NA,NA,NA,01/02/23,300-301,NA
 La Gruta,256,"Espinosa Guzmán, Rafael",Director,REG,Colombia,De sociedad,23,8 de febrero de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/02/23,301-302,NA
 La Gruta,257,Anónimo,Creador,NA,NA,NA,23,8 de febrero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,NA
-La Gruta,258,Anónimo,Creador,NA,NA,NA,24.25,27 de febrero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: detnro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerias en donde se vende. En este número también se promociona Emociones de la Guerra de Max Grullo. Librería de Julio S Grillo. Librería Colombiana"
+La Gruta,258,Anónimo,Creador,NA,NA,NA,24.25,27 de febrero de 1904,No,NA,Español,NA,Publicidad,NA,NA,NA,2,NA,"Transferencia local: dentro de los anuncios promocionan el libro ""Cuentos Bogotanos"" y mencionan las librerías en donde se vende. En este número también se promociona Emociones de la Guerra de Max Grillo. Librería de Julio S Grillo. Librería Colombiana"
 La Gruta,259,"Flórez, Julio",Creador,NA,Colombia,Ante el cadáver de Alejandro Vega,24.25,27 de febrero de 1904,No,NA,Español,NA,Poesía,NA,NA,NA,1,303,NA
 La Gruta,260,"Sanín Cano, Baldomero",Creador,B.S.C.,Colombia,Alejandro Vega,24.25,27 de febrero de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,0.8,304,NA
 La Gruta,261,"Mendoza, Diego",Creador,NA,Colombia,Alejandro Vega,24.25,27 de febrero de 1904,No,NA,Español,NA,Prosa No ficción,NA,NA,NA,01/03/23,304-306,NA
