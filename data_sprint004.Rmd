@@ -268,7 +268,7 @@ m_revistas_colabs_BD$ID <- NULL
 
 
 # Guardamos el resultado
-# write.csv(m_revistas_colabs_BD, file = "revistasDatosContributores.csv", fileEncoding = "UTF-8", row.names=FALSE)
+# write.csv(m_revistas_colabs_BD, file = "RevistasDatosContributores.csv", fileEncoding = "UTF-8", row.names=FALSE)
 ```
 
 ## 3. Visualización de datos
@@ -470,7 +470,7 @@ aristas_completo <- aristas_completo[aristas_completo$to != "Reyes Católicos", 
 aristas_completo <- aristas_completo[aristas_completo$to != "Vicepresidente", ] # 1 removed
 
 # Guardamos el resultado
-#write.csv(aristas_completo, file = "aristas_completo.csv", fileEncoding = "UTF-8", row.names=FALSE)
+#write.csv(aristas_completo, file = "AristasRevistasColombianas.csv", fileEncoding = "UTF-8", row.names=FALSE)
 ```
 
 El resultado de ello es una red bimodal o bipartita con dos tipos de nodos: "Revistas" y "Personas". La estructura de este conjunto de datos es:
@@ -512,7 +512,7 @@ class(revistas_conteo_colaboradores$tipo) # Debe mostrar "character"
 nodos_completo <- rbind(revistas_conteo_colaboradores, nodos_completo)
 
 # Guardamos el resultado
-#write.csv(nodos_completo, file = "nodos_completo.csv", fileEncoding = "UTF-8", row.names=FALSE)
+#write.csv(nodos_completo, file = "NodosRevistasColombianas.csv", fileEncoding = "UTF-8", row.names=FALSE)
 ```
 
 Ahora bien, para el análisis cuantitivo creamos una lista de nodos adicionales. La estructura de datos de este set de datos tiene las siguiente variables:
@@ -542,7 +542,7 @@ nodos_completo_alt$id <- 1:nrow(nodos_completo_alt)
 nodos_completo_alt <- nodos_completo_alt[,c(4,1,2)]
 
 # Guardamos el resultado
-# write.csv(nodos_completo_alt, file = "nodos_completos_alternativos.csv", fileEncoding = "UTF-8", row.names=FALSE)
+# write.csv(nodos_completo_alt, file = "NodosCompletosAlternativos.csv", fileEncoding = "UTF-8", row.names=FALSE)
 ```
 
 Para la visualización interactiva creamos una tabla de nodos y una tabla de aristas con la siguiente estructura:
@@ -695,7 +695,7 @@ nodos_visualizacion$group <- V(red_revista)$community
 
 En este momento podemos visualizar nuestro grafo en forma de red, distinguiendo los grupos de revistas. Para ello usamos la biblioteca `visNetwork`.
 
-```{r Visualización de la red, message=FALSE, warning=FALSE}
+```{r Visualización de la red, eval=FALSE, message=FALSE, warning=FALSE}
 
 colnames(nodos_visualizacion)[colnames(nodos_visualizacion) == "vertex"] <- "label"
 
@@ -709,7 +709,7 @@ visNetwork(nodos_visualizacion, aristas_visualizacion) |>
 
 En este punto, podemos traer los datos sobre revistas del modernimo hispanomericano e integrarlos a nuestro análisis, visualizando una red ampliada.
 
-```{r Carga de datos revistas modernistas hispanoamericanas, message=FALSE, warning=FALSE, include=FALSE}
+```{r Carga de datos revistas modernistas hispanoamericanas, message=FALSE, warning=FALSE}
 
 # Cargamos el data set de revistas del modernismo hispanoamericano
 revistas_modernismo <- read_csv("datos/revistas-modernismo.csv", show_col_types = F)
@@ -758,7 +758,7 @@ Al igual que con las revistas colombianas, creamos una bimodal o bipartita con d
 
 -   tipo ("Revista" o "Persona")
 
-```{r Creación de nodos revistas modernistas, message=FALSE, warning=FALSE, include=FALSE}
+```{r Creación de nodos revistas modernistas, message=FALSE, warning=FALSE}
 
 nodos_modernismo <- aggregate(n ~ to, data=aristas_modernismo, FUN=sum)
 
@@ -788,7 +788,7 @@ class(rev_modernismo_conteo$tipo)
 nodos_modernismo <- rbind(rev_modernismo_conteo, nodos_modernismo)
 
 # Guardamos el resultado
-#write.csv(nodos_modernismo, file = "All-Revistas-Modernismo-Nodes.csv", fileEncoding = "UTF-8", row.names=FALSE)
+#write.csv(nodos_modernismo, file = "NodosRevistasModernismo.csv", fileEncoding = "UTF-8", row.names=FALSE)
 
 ```
 
@@ -796,7 +796,7 @@ nodos_modernismo <- rbind(rev_modernismo_conteo, nodos_modernismo)
 
 Aquí nos interesa ver como se agrupan las revistas colombianas en relación con las revistas del corpus modernista. Para ello calculamos la modularidad a partir de las comunidades, como lo hicimos anteriormente, para ello creamos la lista de nodos y aristas alternativa para el modernismo.
 
-```{r Creación nodos alternativos modernismo, message=FALSE, warning=FALSE, include=FALSE}
+```{r Creación nodos alternativos modernismo, message=FALSE, warning=FALSE}
 
 nodos_suma_modernismo <- nodos_modernismo
 
@@ -841,7 +841,7 @@ colnames(aristas_modernismo_id) <- c("V1","V2","weight")
 
 Ahora podemos calcular la modularidad.
 
-```{r Cálculo de la modularidad red modernista, message=FALSE, warning=FALSE, include=FALSE}
+```{r Cálculo de la modularidad red modernista, message=FALSE, warning=FALSE}
 
 nodos_vis_modernismo <- lista_nodos_modernismo
 aristas_vis_modernismo <- aristas_modernismo_id
@@ -870,8 +870,9 @@ nodos_vis_modernismo$group <- V(red_revista_modernismo)$community
 ### 5.2 Visualización red modernista
 
 Hecho esto, podemos visualizar la red de revistas.
+El resultado se puede consultar en el siguiente enlace:
 
-```{r Visualización red modernista, message=FALSE, warning=FALSE}
+```{r Visualización red modernista, eval=FALSE, message=FALSE, warning=FALSE}
 
 colnames(nodos_vis_modernismo)[colnames(nodos_vis_modernismo) == "vertex"] <- "label"
 
