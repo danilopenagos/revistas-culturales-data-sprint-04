@@ -709,7 +709,7 @@ saveWidget(red_revistas_colombianas_viz, title="Red de revistas colombianas (189
 
 ```
 
-Versión interactiva de la [red de revistas colombianas (1890-1920)](/red_revistas_colombianas_viz.html) 
+Versión interactiva de la [red de revistas colombianas (1890-1920)](red_revistas_colombianas_viz.html) 
 
 
 ## 5. Hacia una red modernista hispanoamericana
@@ -891,7 +891,7 @@ saveWidget(red_modernismo_viz, title="Red de revistas modernistas hispanoamerica
 
 ```
 
-Versión interactiva de la [red de revistas modernismo hispanoamericano](/red_modernismo_viz.html) 
+Versión interactiva de la [red de revistas modernismo hispanoamericano](revistas-culturales-data-sprint-04/red_modernismo_viz.html) 
 
 
 
