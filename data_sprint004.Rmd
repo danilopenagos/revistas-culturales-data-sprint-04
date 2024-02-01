@@ -699,11 +699,18 @@ En este momento podemos visualizar nuestro grafo en forma de red, distinguiendo 
 
 colnames(nodos_visualizacion)[colnames(nodos_visualizacion) == "vertex"] <- "label"
 
-visNetwork(nodos_visualizacion, aristas_visualizacion) |>
-  visOptions(highlightNearest = TRUE, selectedBy = "label")
+visNetwork(nodos_visualizacion, aristas_visualizacion, width = "100%") |>
+  visOptions(highlightNearest = TRUE, selectedBy = "label") |>
+  visIgraphLayout(physics = T, smooth = T) |>
+  visLayout(improvedLayout = T) -> red_revistas_colombianas_viz
+
+saveWidget(red_revistas_colombianas_viz, title="Red de revistas colombianas (1890-1920)", file="docs/red_revistas_colombianas_viz.html")
 
 
 ```
+
+Versión interactiva de la [red de revistas colombianas (1890-1920)](/red_revistas_colombianas_viz.html) 
+
 
 ## 5. Hacia una red modernista hispanoamericana
 
@@ -869,17 +876,24 @@ nodos_vis_modernismo$group <- V(red_revista_modernismo)$community
 
 ### 5.2 Visualización red modernista
 
-Hecho esto, podemos visualizar la red de revistas.
-El resultado se puede consultar en el siguiente enlace:
+Hecho esto, podemos visualizar la red de revistas. 
 
 ```{r Visualización red modernista, eval=FALSE, message=FALSE, warning=FALSE}
 
 colnames(nodos_vis_modernismo)[colnames(nodos_vis_modernismo) == "vertex"] <- "label"
 
-visNetwork(nodos_vis_modernismo, aristas_vis_modernismo) |>
-  visOptions(highlightNearest = TRUE, selectedBy = "label")
+visNetwork(nodos_vis_modernismo, aristas_vis_modernismo, width = "100%") |>
+  visOptions(highlightNearest = TRUE, selectedBy = "label") |>
+  visIgraphLayout(physics = T, smooth = T) |>
+  visLayout(improvedLayout = T) -> red_modernismo_viz
+
+saveWidget(red_modernismo_viz, title="Red de revistas modernistas hispanoamericanas", file="docs/red_modernismo_viz.html")
 
 ```
+
+Versión interactiva de la [red de revistas modernismo hispanoamericano](/red_modernismo_viz.html) 
+
+
 
 ## Recursos (datos revistas Modernismo)
 
