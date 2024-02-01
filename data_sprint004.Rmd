@@ -17,7 +17,7 @@ Por:\
 **Nancy Vargas Castro** (Universtität Tübingen)\
 **Danilo Penagos Jaramillo** (Universidad de Antioquia UdeA)
 
-## Paquetes o bibliotecas necesarios
+## Bibliotecas o paquetes necesarios
 
 ```{r Carga de paquetes, message=FALSE, warning=FALSE, include=FALSE}
 library(dplyr)
@@ -891,7 +891,7 @@ saveWidget(red_modernismo_viz, title="Red de revistas modernistas hispanoamerica
 
 ```
 
-Versión interactiva de la [red de revistas modernismo hispanoamericano](revistas-culturales-data-sprint-04/red_modernismo_viz.html) 
+Versión interactiva de la [red de revistas modernismo hispanoamericano](red_modernismo_viz.html)
 
 
 
