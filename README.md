@@ -19,3 +19,5 @@ Si estás interesado en explorar nuestro análisis o deseas utilizar nuestros da
 3. Descarga los resultados de la visualización en Gephi desde la carpeta "viz_gephi" para una representación gráfica más detallada.
    
 Esperamos que encuentres útil este repositorio y que sirva para nuevas investigaciones en el campo de las redes culturales y literarias en Colombia.
+
+Este repositorio hace parte del proyecto *Digitization and Analysis of Cultural Transfers in Colombian Literary Magazines (1892-1950)*, ejecutado entre Colombia: tradiciones de la palabra (Universidad de Antioquia UdeA, Colombia) y Revistas Culturales 2.0 (Universität Tübingen, Alemania).
