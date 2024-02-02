@@ -1,4 +1,4 @@
-# Data Sprint 04: Red de revistas culturales y literarias colombianas 
+# Red de revistas culturales y literarias colombianas 
 En este repositorio exploramos y analizamos las redes en revistas literarias y culturales colombianas. Este proyecto se centra en el análisis de redes sociales (SNA, por sus siglas en inglés) utilizando datos recopilados de trece revistas publicadas entre 1890 y 1920 en Colombia. Además, establecemos un diálogo entre estos datos y los modelos de datos de las revistas modernistas ([Cedeño *et al*., 2020](https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000D-1D15-C)).
 
 ## Contenido del Repositorio
